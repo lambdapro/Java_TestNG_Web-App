@@ -32,15 +32,6 @@ public class TestNGTodo1 {
         caps.setCapability("build", "TestNG With Java");
         caps.setCapability("name", m.getName() + " - " + this.getClass().getName());
         caps.setCapability("plugin", "git-testng");
-        caps.setCapability("performance",true);
-        caps.setCapability("network", true);
-        caps.setCapability("console", true);
-        caps.setCapability("networkThrottling", "Regular 4G");
-        caps.setCapability("commandLog", true);
-        caps.setCapability("systemLog", true);
-        caps.setCapability("terminal", true);
-        caps.setCapability("video", true);
-
 
         String[] Tags = new String[] { "Feature", "Falcon", "Severe" };
         caps.setCapability("tags", Tags);

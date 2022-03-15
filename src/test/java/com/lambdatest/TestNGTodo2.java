@@ -37,11 +37,6 @@ public class TestNGTodo2 {
         caps.setCapability("console", true);
         caps.setCapability("networkThrottling", "Regular 4G");
 
-        caps.setCapability("commandLog", true);
-        caps.setCapability("systemLog", true);
-        caps.setCapability("terminal", true);
-        caps.setCapability("video", true);
-
         String[] Tags = new String[] { "Feature", "Magicleap", "Severe" };
         caps.setCapability("tags", Tags);
 
