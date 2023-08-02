@@ -17,7 +17,8 @@ public class AndroidApp {
      String userName = System.getenv("LT_USERNAME") == null ? "Your LT Username" : System.getenv("LT_USERNAME");
      String accessKey = System.getenv("LT_ACCESS_KEY") == null ? "Your LT AccessKey" : System.getenv("LT_ACCESS_KEY");
 
-    public String gridURL = "@mobile-hub.lambdatest.com/wd/hub";
+
+     public String gridURL = "@mobile-hub.lambdatest.com/wd/hub";
 
     AppiumDriver driver;
 
