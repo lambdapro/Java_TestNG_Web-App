@@ -1,0 +1,66 @@
+{"level":"info","time":"2024-06-11T02:57:42.230+0530","caller":"cmd/lt.go:205","msg":"LambdaTest Tunnel version: 3.1.31"}
+{"level":"debug","time":"2024-06-11T02:57:42.231+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2024-06-11T02:57:42.231+0530","caller":"core/lifecycle.go:42","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2024-06-11T02:57:42.231+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2024-06-11T02:57:42.231+0530","caller":"core/lifecycle.go:65","msg":"Starting tunnel With flags: --user mudassars --key ***** --callbackURL http://127.0.0.1:53988/started --env ht-prod --tunnelName czCBHwzrByEfXRwl --retry-on-failure --infoAPIPort 53989 --logFile D:\\demo\\LambdaTest_Demo-main\\logs\\tunnel\\czCBHwzrByEfXRwl-1.log"}
+{"level":"debug","time":"2024-06-11T02:57:43.931+0530","caller":"core/lifecycle.go:83","msg":"Remote config fetched"}
+{"level":"debug","time":"2024-06-11T02:57:44.014+0530","caller":"networkscanner/setup.go:103","msg":"Trying on port 443"}
+{"level":"debug","time":"2024-06-11T02:57:44.014+0530","caller":"apiserver/setup.go:166","msg":"Starting API server"}
+{"level":"debug","time":"2024-06-11T02:57:44.014+0530","caller":"networkscanner/setup.go:137","msg":"Trying over ssh over ws"}
+{"level":"debug","time":"2024-06-11T02:57:44.014+0530","caller":"custom/setup.go:861","msg":"Starting sink proxy"}
+{"level":"debug","time":"2024-06-11T02:57:44.014+0530","caller":"apiserver/setup.go:148","msg":"Starting API server for tunnel info on port: 53989"}
+{"level":"debug","time":"2024-06-11T02:57:44.014+0530","caller":"networkscanner/setup.go:191","msg":"Trying on port 443"}
+{"level":"debug","time":"2024-06-11T02:57:44.014+0530","caller":"networkscanner/setup.go:69","msg":"Trying on port 22"}
+{"level":"debug","time":"2024-06-11T02:57:44.014+0530","caller":"callback/setup.go:51","msg":"Starting the callback agent"}
+{"level":"info","time":"2024-06-11T02:57:44.016+0530","caller":"custom/setup.go:804","msg":"Tunnel binary started on port :9090"}
+{"level":"debug","time":"2024-06-11T02:57:44.036+0530","caller":"networkscanner/setup.go:207","msg":"TCP connection was successful"}
+{"level":"debug","time":"2024-06-11T02:57:44.102+0530","caller":"networkscanner/setup.go:154","msg":"WSS connection was successful"}
+{"level":"debug","time":"2024-06-11T02:57:44.486+0530","caller":"networkscanner/setup.go:124","msg":"SSH connection over port 443 successful"}
+{"level":"debug","time":"2024-06-11T02:57:44.544+0530","caller":"networkscanner/setup.go:90","msg":"SSH connection over port 22 successful"}
+{"level":"debug","time":"2024-06-11T02:57:44.573+0530","caller":"networkscanner/setup.go:179","msg":"SSH connection over ws successful"}
+{"level":"info","time":"2024-06-11T02:57:44.573+0530","caller":"core/lifecycle.go:122","msg":"Using ssh(over_22) :: connection mode"}
+{"level":"info","time":"2024-06-11T02:57:44.573+0530","caller":"core/lifecycle.go:259","msg":"Launching tunnel"}
+{"level":"debug","time":"2024-06-11T02:57:44.573+0530","caller":"ws/control.go:34","msg":"Starting control ws connection at wss://hts.lambdatest.com/monitor"}
+{"level":"debug","time":"2024-06-11T02:57:45.495+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2024-06-11T02:57:45.495+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2024-06-11T02:57:47.435+0530","caller":"tunnelmanager/controller.go:149","msg":"otel disabled"}
+{"level":"debug","time":"2024-06-11T02:57:47.435+0530","caller":"core/lifecycle.go:358","msg":"Sending tunnel registered message to channels"}
+{"level":"debug","time":"2024-06-11T02:57:47.436+0530","caller":"ws/control.go:196","msg":"Tunnel registered message received on control channel"}
+{"level":"debug","time":"2024-06-11T02:57:47.436+0530","caller":"ws/control.go:200","msg":"controller bus registered"}
+{"level":"debug","time":"2024-06-11T02:57:47.436+0530","caller":"ssh/setup.go:71","msg":"Using 5 ssh connection"}
+{"level":"debug","time":"2024-06-11T02:57:48.092+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 24996"}
+{"level":"debug","time":"2024-06-11T02:57:48.107+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 12215"}
+{"level":"info","time":"2024-06-11T02:57:48.108+0530","caller":"core/lifecycle.go:381","msg":"You can start testing now"}
+{"level":"info","time":"2024-06-11T02:57:48.108+0530","caller":"core/lifecycle.go:382","msg":"Tunnel ID: 1508173"}
+{"level":"debug","time":"2024-06-11T02:57:48.108+0530","caller":"core/lifecycle.go:383","msg":"Remote Listener Started on Port 7087"}
+{"level":"debug","time":"2024-06-11T02:57:48.109+0530","caller":"callback/setup.go:100","msg":"Webhook endpoint http://127.0.0.1:53988/started successfully notified"}
+{"level":"debug","time":"2024-06-11T02:57:48.154+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 19423"}
+{"level":"debug","time":"2024-06-11T02:57:48.226+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 11894"}
+{"level":"debug","time":"2024-06-11T02:57:48.234+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 24576"}
+{"level":"debug","time":"2024-06-11T02:58:15.521+0530","caller":"custom/setup.go:549","msg":"handling connect request for URL https://repo.maven.apache.org:443","tunnelID":"1508173","requestID":1}
+{"level":"debug","time":"2024-06-11T02:58:55.272+0530","caller":"custom/setup.go:549","msg":"handling connect request for URL https://repo.maven.apache.org:443","tunnelID":"1508173","requestID":2}
+{"level":"debug","time":"2024-06-11T02:58:55.274+0530","caller":"custom/setup.go:549","msg":"handling connect request for URL https://repo.maven.apache.org:443","tunnelID":"1508173","requestID":3}
+{"level":"debug","time":"2024-06-11T02:58:55.276+0530","caller":"custom/setup.go:549","msg":"handling connect request for URL https://repo.maven.apache.org:443","tunnelID":"1508173","requestID":4}
+{"level":"debug","time":"2024-06-11T02:58:55.276+0530","caller":"custom/setup.go:549","msg":"handling connect request for URL https://repo.maven.apache.org:443","tunnelID":"1508173","requestID":5}
+{"level":"debug","time":"2024-06-11T03:00:04.833+0530","caller":"custom/setup.go:849","msg":"Exiting the sink proxy","tunnelID":"1508173"}
+{"level":"debug","time":"2024-06-11T03:00:04.834+0530","caller":"apiserver/setup.go:144","msg":"Shutting down the server"}
+{"level":"debug","time":"2024-06-11T03:00:04.834+0530","caller":"callback/setup.go:115","msg":"Shutting down the callback agent"}
+{"level":"debug","time":"2024-06-11T03:00:04.834+0530","caller":"core/lifecycle.go:425","msg":"Context cancelled"}
+{"level":"info","time":"2024-06-11T03:00:04.834+0530","caller":"core/lifecycle.go:427","msg":"Stopping tunnel"}
+{"level":"debug","time":"2024-06-11T03:00:04.835+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"debug","time":"2024-06-11T03:00:04.835+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"debug","time":"2024-06-11T03:00:05.857+0530","caller":"ssh/ssh.go:222","msg":"Remote connection on remote port: 24576 closed, reason: EOF"}
+{"level":"debug","time":"2024-06-11T03:00:05.857+0530","caller":"ssh/ssh.go:244","msg":"closed ssh connection with port 24576"}
+{"level":"debug","time":"2024-06-11T03:00:05.858+0530","caller":"ssh/ssh.go:222","msg":"Remote connection on remote port: 24996 closed, reason: EOF"}
+{"level":"debug","time":"2024-06-11T03:00:05.858+0530","caller":"ssh/ssh.go:244","msg":"closed ssh connection with port 24996"}
+{"level":"debug","time":"2024-06-11T03:00:05.859+0530","caller":"ssh/ssh.go:222","msg":"Remote connection on remote port: 11894 closed, reason: EOF"}
+{"level":"debug","time":"2024-06-11T03:00:05.859+0530","caller":"ssh/ssh.go:244","msg":"closed ssh connection with port 11894"}
+{"level":"debug","time":"2024-06-11T03:00:05.859+0530","caller":"ssh/ssh.go:222","msg":"Remote connection on remote port: 19423 closed, reason: EOF"}
+{"level":"debug","time":"2024-06-11T03:00:05.859+0530","caller":"ssh/ssh.go:244","msg":"closed ssh connection with port 19423"}
+{"level":"debug","time":"2024-06-11T03:00:05.861+0530","caller":"ssh/ssh.go:222","msg":"Remote connection on remote port: 12215 closed, reason: EOF"}
+{"level":"debug","time":"2024-06-11T03:00:05.861+0530","caller":"ssh/ssh.go:244","msg":"closed ssh connection with port 12215"}
+{"level":"info","time":"2024-06-11T03:00:06.202+0530","caller":"core/lifecycle.go:434","msg":"Tunnel stopped successfully"}
+{"level":"debug","time":"2024-06-11T03:00:06.203+0530","caller":"core/lifecycle.go:436","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-06-11T03:00:06.203+0530","caller":"core/lifecycle.go:437","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2024-06-11T03:00:06.203+0530","caller":"core/lifecycle.go:439","msg":"All goroutines exited"}
+{"level":"debug","time":"2024-06-11T03:00:06.203+0530","caller":"cmd/lt.go:261","msg":"main: all goroutines have finished."}

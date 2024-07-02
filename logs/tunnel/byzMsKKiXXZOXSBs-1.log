@@ -1,0 +1,66 @@
+{"level":"info","time":"2024-06-11T03:32:34.641+0530","caller":"cmd/lt.go:205","msg":"LambdaTest Tunnel version: 3.1.31"}
+{"level":"debug","time":"2024-06-11T03:32:34.643+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2024-06-11T03:32:34.643+0530","caller":"core/lifecycle.go:42","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2024-06-11T03:32:34.643+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2024-06-11T03:32:34.643+0530","caller":"core/lifecycle.go:65","msg":"Starting tunnel With flags: --user mudassars --key ***** --callbackURL http://127.0.0.1:54586/started --env ht-prod --tunnelName byzMsKKiXXZOXSBs --retry-on-failure --infoAPIPort 54587 --logFile D:\\demo\\LambdaTest_Demo-main\\logs\\tunnel\\byzMsKKiXXZOXSBs-1.log"}
+{"level":"debug","time":"2024-06-11T03:32:36.477+0530","caller":"core/lifecycle.go:83","msg":"Remote config fetched"}
+{"level":"debug","time":"2024-06-11T03:32:36.534+0530","caller":"callback/setup.go:51","msg":"Starting the callback agent"}
+{"level":"debug","time":"2024-06-11T03:32:36.534+0530","caller":"custom/setup.go:861","msg":"Starting sink proxy"}
+{"level":"debug","time":"2024-06-11T03:32:36.534+0530","caller":"networkscanner/setup.go:69","msg":"Trying on port 22"}
+{"level":"debug","time":"2024-06-11T03:32:36.534+0530","caller":"networkscanner/setup.go:103","msg":"Trying on port 443"}
+{"level":"debug","time":"2024-06-11T03:32:36.534+0530","caller":"apiserver/setup.go:166","msg":"Starting API server"}
+{"level":"debug","time":"2024-06-11T03:32:36.534+0530","caller":"networkscanner/setup.go:137","msg":"Trying over ssh over ws"}
+{"level":"debug","time":"2024-06-11T03:32:36.534+0530","caller":"networkscanner/setup.go:191","msg":"Trying on port 443"}
+{"level":"debug","time":"2024-06-11T03:32:36.535+0530","caller":"apiserver/setup.go:148","msg":"Starting API server for tunnel info on port: 54587"}
+{"level":"info","time":"2024-06-11T03:32:36.536+0530","caller":"custom/setup.go:804","msg":"Tunnel binary started on port :9090"}
+{"level":"debug","time":"2024-06-11T03:32:36.556+0530","caller":"networkscanner/setup.go:207","msg":"TCP connection was successful"}
+{"level":"debug","time":"2024-06-11T03:32:36.620+0530","caller":"networkscanner/setup.go:154","msg":"WSS connection was successful"}
+{"level":"debug","time":"2024-06-11T03:32:37.058+0530","caller":"networkscanner/setup.go:90","msg":"SSH connection over port 22 successful"}
+{"level":"debug","time":"2024-06-11T03:32:37.075+0530","caller":"networkscanner/setup.go:179","msg":"SSH connection over ws successful"}
+{"level":"debug","time":"2024-06-11T03:32:37.115+0530","caller":"networkscanner/setup.go:124","msg":"SSH connection over port 443 successful"}
+{"level":"info","time":"2024-06-11T03:32:37.116+0530","caller":"core/lifecycle.go:122","msg":"Using ssh(over_22) :: connection mode"}
+{"level":"info","time":"2024-06-11T03:32:37.116+0530","caller":"core/lifecycle.go:259","msg":"Launching tunnel"}
+{"level":"debug","time":"2024-06-11T03:32:37.117+0530","caller":"ws/control.go:34","msg":"Starting control ws connection at wss://hts.lambdatest.com/monitor"}
+{"level":"debug","time":"2024-06-11T03:32:38.052+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2024-06-11T03:32:38.052+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2024-06-11T03:32:39.767+0530","caller":"tunnelmanager/controller.go:149","msg":"otel disabled"}
+{"level":"debug","time":"2024-06-11T03:32:39.767+0530","caller":"core/lifecycle.go:358","msg":"Sending tunnel registered message to channels"}
+{"level":"debug","time":"2024-06-11T03:32:39.767+0530","caller":"ws/control.go:196","msg":"Tunnel registered message received on control channel"}
+{"level":"debug","time":"2024-06-11T03:32:39.767+0530","caller":"ssh/setup.go:71","msg":"Using 5 ssh connection"}
+{"level":"debug","time":"2024-06-11T03:32:39.767+0530","caller":"ws/control.go:200","msg":"controller bus registered"}
+{"level":"debug","time":"2024-06-11T03:32:40.418+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 16498"}
+{"level":"debug","time":"2024-06-11T03:32:40.526+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 23549"}
+{"level":"info","time":"2024-06-11T03:32:40.526+0530","caller":"core/lifecycle.go:381","msg":"You can start testing now"}
+{"level":"info","time":"2024-06-11T03:32:40.526+0530","caller":"core/lifecycle.go:382","msg":"Tunnel ID: 1508206"}
+{"level":"debug","time":"2024-06-11T03:32:40.526+0530","caller":"core/lifecycle.go:383","msg":"Remote Listener Started on Port 27245"}
+{"level":"debug","time":"2024-06-11T03:32:40.528+0530","caller":"callback/setup.go:100","msg":"Webhook endpoint http://127.0.0.1:54586/started successfully notified"}
+{"level":"debug","time":"2024-06-11T03:32:40.572+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 2178"}
+{"level":"debug","time":"2024-06-11T03:32:40.587+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 20202"}
+{"level":"debug","time":"2024-06-11T03:32:40.591+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 25241"}
+{"level":"debug","time":"2024-06-11T03:34:17.884+0530","caller":"custom/setup.go:387","msg":"handle http request for http://ocsp.digicert.com/MFYwVKADAgEAME0wSzBJMAkGBSsOAwIaBQAEFMEvRXbtFVnssF26ib%2BdgHjlI9QTBBTlnVkwgkdYzKz6CFQ2hns6tQRN8AIQBVLH7%2F7sKSup8Th7B6%2BSnw%3D%3D","tunnelID":"1508206","requestID":1}
+{"level":"debug","time":"2024-06-11T03:34:17.907+0530","caller":"custom/setup.go:515","msg":"Response &{Status:200 OK StatusCode:200 Proto:HTTP/1.1 ProtoMajor:1 ProtoMinor:1 Header:map[Accept-Ranges:[bytes] Age:[6186] Cache-Control:[max-age=7200] Content-Length:[1507] Content-Type:[application/ocsp-response] Date:[Mon, 10 Jun 2024 22:04:17 GMT] Last-Modified:[Mon, 10 Jun 2024 20:21:11 GMT] Server:[ECAcc (nag/9914)] X-Cache:[HIT]] Body:0xc000124740 ContentLength:1507 TransferEncoding:[] Close:false Uncompressed:false Trailer:map[] Request:0xc000148200 TLS:<nil>} for http request from domain http://ocsp.digicert.com/MFYwVKADAgEAME0wSzBJMAkGBSsOAwIaBQAEFMEvRXbtFVnssF26ib%2BdgHjlI9QTBBTlnVkwgkdYzKz6CFQ2hns6tQRN8AIQBVLH7%2F7sKSup8Th7B6%2BSnw%3D%3D","tunnelID":"1508206","requestID":1}
+{"level":"debug","time":"2024-06-11T03:35:04.017+0530","caller":"cmd/lt.go:269","msg":"main: received interrupt signal - attempting graceful shutdown ...."}
+{"level":"debug","time":"2024-06-11T03:35:04.017+0530","caller":"cmd/lt.go:271","msg":"main: telling goroutines to stop"}
+{"level":"debug","time":"2024-06-11T03:35:04.017+0530","caller":"callback/setup.go:115","msg":"Shutting down the callback agent"}
+{"level":"debug","time":"2024-06-11T03:35:04.017+0530","caller":"apiserver/setup.go:144","msg":"Shutting down the server"}
+{"level":"debug","time":"2024-06-11T03:35:04.017+0530","caller":"custom/setup.go:849","msg":"Exiting the sink proxy","tunnelID":"1508206"}
+{"level":"debug","time":"2024-06-11T03:35:04.017+0530","caller":"core/lifecycle.go:425","msg":"Context cancelled"}
+{"level":"info","time":"2024-06-11T03:35:04.017+0530","caller":"core/lifecycle.go:427","msg":"Stopping tunnel"}
+{"level":"debug","time":"2024-06-11T03:35:04.021+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"debug","time":"2024-06-11T03:35:04.021+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"debug","time":"2024-06-11T03:35:05.196+0530","caller":"ssh/ssh.go:222","msg":"Remote connection on remote port: 16498 closed, reason: EOF"}
+{"level":"debug","time":"2024-06-11T03:35:05.196+0530","caller":"ssh/ssh.go:244","msg":"closed ssh connection with port 16498"}
+{"level":"debug","time":"2024-06-11T03:35:05.199+0530","caller":"ssh/ssh.go:222","msg":"Remote connection on remote port: 20202 closed, reason: EOF"}
+{"level":"debug","time":"2024-06-11T03:35:05.199+0530","caller":"ssh/ssh.go:244","msg":"closed ssh connection with port 20202"}
+{"level":"debug","time":"2024-06-11T03:35:05.200+0530","caller":"ssh/ssh.go:222","msg":"Remote connection on remote port: 2178 closed, reason: EOF"}
+{"level":"debug","time":"2024-06-11T03:35:05.200+0530","caller":"ssh/ssh.go:244","msg":"closed ssh connection with port 2178"}
+{"level":"debug","time":"2024-06-11T03:35:05.201+0530","caller":"ssh/ssh.go:222","msg":"Remote connection on remote port: 23549 closed, reason: EOF"}
+{"level":"debug","time":"2024-06-11T03:35:05.201+0530","caller":"ssh/ssh.go:244","msg":"closed ssh connection with port 23549"}
+{"level":"debug","time":"2024-06-11T03:35:05.204+0530","caller":"ssh/ssh.go:222","msg":"Remote connection on remote port: 25241 closed, reason: EOF"}
+{"level":"debug","time":"2024-06-11T03:35:05.204+0530","caller":"ssh/ssh.go:244","msg":"closed ssh connection with port 25241"}
+{"level":"info","time":"2024-06-11T03:35:05.538+0530","caller":"core/lifecycle.go:434","msg":"Tunnel stopped successfully"}
+{"level":"debug","time":"2024-06-11T03:35:05.539+0530","caller":"core/lifecycle.go:436","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-06-11T03:35:05.539+0530","caller":"core/lifecycle.go:437","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2024-06-11T03:35:05.539+0530","caller":"core/lifecycle.go:439","msg":"All goroutines exited"}
+{"level":"debug","time":"2024-06-11T03:35:05.539+0530","caller":"cmd/lt.go:261","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2024-06-11T03:35:05.539+0530","caller":"cmd/lt.go:275","msg":"Go routines exited within timeout"}

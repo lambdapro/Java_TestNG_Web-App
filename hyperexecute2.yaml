@@ -1,0 +1,28 @@
+version: "0.2"
+concurrency: 10
+runson: android
+autosplit: true
+autoAcceptAlerts: true
+tunnel: true
+tunnelOpts:
+  args: [--verbose]
+globalHttpProxy: true
+
+framework:
+  name: "android/espresso"
+  args:
+    globalHttpProxy: true
+    buildName: "Regression_Consumer"
+    video: true
+    deviceLog: true
+    queuetimeout: 10800
+    autoGrantPermissions: true
+    appId:  lt://APP1016016161719212849412683
+    testSuiteAppId: lt://APP10160352241719212964502937
+    deviceSelectionStrategy: any
+    disableAnimation :  true
+    devices: ["Galaxy S21 5G-11"]
+    filters:
+      attributes:
+        - type: annotation
+          values: ["com.aligntech.myinvisalign.test.testSuites.ConsumerRegression"]

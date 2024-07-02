@@ -1,0 +1,336 @@
+{"level":"info","time":"2024-06-24T19:20:07.898+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.1.31"}
+{"level":"debug","time":"2024-06-24T19:20:07.900+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2024-06-24T19:20:07.900+0530","caller":"core/lifecycle.go:42","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2024-06-24T19:20:07.900+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2024-06-24T19:20:07.900+0530","caller":"core/lifecycle.go:65","msg":"Starting tunnel With flags: --user mudassars --key ***** --hypCallbackURL http://127.0.0.1:49846/started --env ht-prod --tunnelName uuECrelaQEAfMPkQ --retry-on-failure --verbose --infoAPIPort 49847 --logFile D:\\demo\\LambdaTest_Demo-main\\logs\\tunnel\\uuECrelaQEAfMPkQ-1.log"}
+{"level":"debug","time":"2024-06-24T19:20:09.612+0530","caller":"core/lifecycle.go:83","msg":"Remote config fetched"}
+{"level":"debug","time":"2024-06-24T19:20:10.140+0530","caller":"apiserver/setup.go:166","msg":"Starting API server"}
+{"level":"debug","time":"2024-06-24T19:20:10.140+0530","caller":"callback/setup.go:54","msg":"Starting the callback agent"}
+{"level":"debug","time":"2024-06-24T19:20:10.140+0530","caller":"custom/setup.go:867","msg":"Starting sink proxy"}
+{"level":"debug","time":"2024-06-24T19:20:10.150+0530","caller":"networkscanner/setup.go:137","msg":"Trying over ssh over ws"}
+{"level":"debug","time":"2024-06-24T19:20:10.150+0530","caller":"networkscanner/setup.go:191","msg":"Trying on port 443"}
+{"level":"debug","time":"2024-06-24T19:20:10.150+0530","caller":"networkscanner/setup.go:69","msg":"Trying on port 22"}
+{"level":"debug","time":"2024-06-24T19:20:10.150+0530","caller":"apiserver/setup.go:148","msg":"Starting API server for tunnel info on port: 49847"}
+{"level":"debug","time":"2024-06-24T19:20:10.150+0530","caller":"networkscanner/setup.go:103","msg":"Trying on port 443"}
+{"level":"info","time":"2024-06-24T19:20:10.153+0530","caller":"custom/setup.go:810","msg":"Tunnel binary started on port :9090"}
+{"level":"debug","time":"2024-06-24T19:20:10.175+0530","caller":"networkscanner/setup.go:207","msg":"TCP connection was successful"}
+{"level":"debug","time":"2024-06-24T19:20:10.238+0530","caller":"networkscanner/setup.go:154","msg":"WSS connection was successful"}
+{"level":"debug","time":"2024-06-24T19:20:10.748+0530","caller":"networkscanner/setup.go:179","msg":"SSH connection over ws successful"}
+{"level":"debug","time":"2024-06-24T19:20:10.792+0530","caller":"networkscanner/setup.go:124","msg":"SSH connection over port 443 successful"}
+{"level":"debug","time":"2024-06-24T19:20:10.792+0530","caller":"networkscanner/setup.go:90","msg":"SSH connection over port 22 successful"}
+{"level":"info","time":"2024-06-24T19:20:10.792+0530","caller":"core/lifecycle.go:122","msg":"Using ssh(over_22) :: connection mode"}
+{"level":"info","time":"2024-06-24T19:20:10.792+0530","caller":"core/lifecycle.go:272","msg":"Launching tunnel"}
+{"level":"debug","time":"2024-06-24T19:20:10.817+0530","caller":"ws/control.go:34","msg":"Starting control ws connection at wss://hts.lambdatest.com/monitor"}
+{"level":"debug","time":"2024-06-24T19:20:11.260+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2024-06-24T19:20:11.260+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2024-06-24T19:20:13.016+0530","caller":"tunnelmanager/controller.go:149","msg":"otel disabled"}
+{"level":"debug","time":"2024-06-24T19:20:13.016+0530","caller":"core/lifecycle.go:371","msg":"Sending tunnel registered message to channels"}
+{"level":"debug","time":"2024-06-24T19:20:13.016+0530","caller":"ws/control.go:196","msg":"Tunnel registered message received on control channel"}
+{"level":"debug","time":"2024-06-24T19:20:13.016+0530","caller":"ws/control.go:200","msg":"controller bus registered"}
+{"level":"debug","time":"2024-06-24T19:20:13.016+0530","caller":"ssh/setup.go:71","msg":"Using 5 ssh connection"}
+{"level":"debug","time":"2024-06-24T19:20:13.774+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 9024"}
+{"level":"debug","time":"2024-06-24T19:20:13.777+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 24963"}
+{"level":"info","time":"2024-06-24T19:20:13.777+0530","caller":"core/lifecycle.go:394","msg":"You can start testing now"}
+{"level":"info","time":"2024-06-24T19:20:13.777+0530","caller":"core/lifecycle.go:395","msg":"Tunnel ID: 1525433"}
+{"level":"debug","time":"2024-06-24T19:20:13.777+0530","caller":"core/lifecycle.go:396","msg":"Remote Listener Started on Port 1108"}
+{"level":"debug","time":"2024-06-24T19:20:13.780+0530","caller":"callback/setup.go:103","msg":"Webhook endpoint http://127.0.0.1:49846/started successfully notified"}
+{"level":"debug","time":"2024-06-24T19:20:13.784+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 15377"}
+{"level":"debug","time":"2024-06-24T19:20:13.826+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 26263"}
+{"level":"debug","time":"2024-06-24T19:20:13.826+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 24329"}
+{"level":"debug","time":"2024-06-24T19:20:26.755+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.googleapis.com:443","tunnelID":"1525433","requestID":1}
+{"level":"debug","time":"2024-06-24T19:20:27.041+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.googleapis.com:443","tunnelID":"1525433","requestID":2}
+{"level":"debug","time":"2024-06-24T19:20:27.106+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525433","requestID":3}
+{"level":"debug","time":"2024-06-24T19:20:27.208+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://connectivitycheck.gstatic.com:443","tunnelID":"1525433","requestID":4}
+{"level":"debug","time":"2024-06-24T19:20:27.656+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://gos-api.gos-gsp.io:443","tunnelID":"1525433","requestID":5}
+{"level":"debug","time":"2024-06-24T19:20:28.004+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://connectivitycheck.gstatic.com:443","tunnelID":"1525433","requestID":6}
+{"level":"debug","time":"2024-06-24T19:20:28.004+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525433","requestID":7}
+{"level":"debug","time":"2024-06-24T19:20:28.076+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://rr1---sn-oxu4vg0po-cvhe.gvt1.com:443","tunnelID":"1525433","requestID":8}
+{"level":"debug","time":"2024-06-24T19:20:28.295+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://app-measurement.com:443","tunnelID":"1525433","requestID":9}
+{"level":"debug","time":"2024-06-24T19:20:28.349+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://gos-api.gos-gsp.io:443","tunnelID":"1525433","requestID":10}
+{"level":"debug","time":"2024-06-24T19:20:28.369+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://rr1---sn-oxu4vg0po-cvhe.gvt1.com:443","tunnelID":"1525433","requestID":11}
+{"level":"debug","time":"2024-06-24T19:20:29.073+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525433","requestID":12}
+{"level":"debug","time":"2024-06-24T19:20:29.308+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://infinitedata-pa.googleapis.com:443","tunnelID":"1525433","requestID":13}
+{"level":"debug","time":"2024-06-24T19:20:29.332+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://connectivitycheck.gstatic.com:443","tunnelID":"1525433","requestID":14}
+{"level":"debug","time":"2024-06-24T19:20:29.393+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525433","requestID":15}
+{"level":"debug","time":"2024-06-24T19:20:29.417+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://infinitedata-pa.googleapis.com:443","tunnelID":"1525433","requestID":16}
+{"level":"debug","time":"2024-06-24T19:20:29.600+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://gos-api.gos-gsp.io:443","tunnelID":"1525433","requestID":17}
+{"level":"debug","time":"2024-06-24T19:20:29.720+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://gos-api.gos-gsp.io:443","tunnelID":"1525433","requestID":18}
+{"level":"debug","time":"2024-06-24T19:20:29.846+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://connectivitycheck.gstatic.com:443","tunnelID":"1525433","requestID":19}
+{"level":"debug","time":"2024-06-24T19:20:29.878+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://connectivitycheck.gstatic.com:443","tunnelID":"1525433","requestID":20}
+{"level":"debug","time":"2024-06-24T19:20:29.903+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525433","requestID":21}
+{"level":"debug","time":"2024-06-24T19:20:29.926+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://infinitedata-pa.googleapis.com:443","tunnelID":"1525433","requestID":22}
+{"level":"debug","time":"2024-06-24T19:20:30.183+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://infinitedata-pa.googleapis.com:443","tunnelID":"1525433","requestID":23}
+{"level":"debug","time":"2024-06-24T19:20:30.204+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://connectivitycheck.gstatic.com:443","tunnelID":"1525433","requestID":24}
+{"level":"debug","time":"2024-06-24T19:20:30.361+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://firebaseinstallations.googleapis.com:443","tunnelID":"1525433","requestID":25}
+{"level":"debug","time":"2024-06-24T19:20:30.443+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://gos-api.gos-gsp.io:443","tunnelID":"1525433","requestID":26}
+{"level":"debug","time":"2024-06-24T19:20:30.552+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://digitalassetlinks.googleapis.com:443","tunnelID":"1525433","requestID":27}
+{"level":"debug","time":"2024-06-24T19:20:31.079+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://app-measurement.com:443","tunnelID":"1525433","requestID":28}
+{"level":"debug","time":"2024-06-24T19:20:31.883+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://firebase-settings.crashlytics.com:443","tunnelID":"1525433","requestID":29}
+{"level":"debug","time":"2024-06-24T19:20:31.886+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://firebase-settings.crashlytics.com:443","tunnelID":"1525433","requestID":30}
+{"level":"debug","time":"2024-06-24T19:20:31.888+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://bf25499qnp.bf.dynatrace.com:443","tunnelID":"1525433","requestID":31}
+{"level":"debug","time":"2024-06-24T19:20:31.899+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://firebaseinstallations.googleapis.com:443","tunnelID":"1525433","requestID":32}
+{"level":"debug","time":"2024-06-24T19:20:32.157+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://connectivitycheck.gstatic.com:443","tunnelID":"1525433","requestID":33}
+{"level":"debug","time":"2024-06-24T19:20:32.238+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://qmgqi5-cdn-settings.appsflyersdk.com:443","tunnelID":"1525433","requestID":34}
+{"level":"debug","time":"2024-06-24T19:20:32.276+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://api.apptentive.com:443","tunnelID":"1525433","requestID":35}
+{"level":"debug","time":"2024-06-24T19:20:32.409+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://identity-con-use1.ppr.aligntech.com:443","tunnelID":"1525433","requestID":36}
+{"level":"debug","time":"2024-06-24T19:20:32.466+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://sessions.bugsnag.com:443","tunnelID":"1525433","requestID":37}
+{"level":"debug","time":"2024-06-24T19:20:32.528+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://logging-virginia-mobile.pwa.aligntech.com:443","tunnelID":"1525433","requestID":38}
+{"level":"debug","time":"2024-06-24T19:20:32.599+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://cdn.contentful.com:443","tunnelID":"1525433","requestID":39}
+{"level":"debug","time":"2024-06-24T19:20:34.298+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://android.apis.google.com:443","tunnelID":"1525433","requestID":40}
+{"level":"debug","time":"2024-06-24T19:20:34.451+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://android.apis.google.com:443","tunnelID":"1525433","requestID":41}
+{"level":"debug","time":"2024-06-24T19:20:35.186+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://api.apptentive.com:443","tunnelID":"1525433","requestID":42}
+{"level":"debug","time":"2024-06-24T19:20:35.193+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://api.apptentive.com:443","tunnelID":"1525433","requestID":43}
+{"level":"debug","time":"2024-06-24T19:20:35.371+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://api-us.ppr.aligntech.com:443","tunnelID":"1525433","requestID":44}
+{"level":"debug","time":"2024-06-24T19:20:36.283+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://qmgqi5-dlsdk.appsflyersdk.com:443","tunnelID":"1525433","requestID":45}
+{"level":"debug","time":"2024-06-24T19:20:37.366+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://qmgqi5-register.appsflyersdk.com:443","tunnelID":"1525433","requestID":46}
+{"level":"debug","time":"2024-06-24T19:20:39.015+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://gos-api.gos-gsp.io:443","tunnelID":"1525433","requestID":47}
+{"level":"debug","time":"2024-06-24T19:20:39.263+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525433","requestID":48}
+{"level":"debug","time":"2024-06-24T19:20:39.603+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://digitalassetlinks.googleapis.com:443","tunnelID":"1525433","requestID":49}
+{"level":"debug","time":"2024-06-24T19:20:40.171+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://app-measurement.com:443","tunnelID":"1525433","requestID":50}
+{"level":"debug","time":"2024-06-24T19:20:40.229+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://firebase-settings.crashlytics.com:443","tunnelID":"1525433","requestID":51}
+{"level":"debug","time":"2024-06-24T19:20:40.247+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://firebase-settings.crashlytics.com:443","tunnelID":"1525433","requestID":52}
+{"level":"debug","time":"2024-06-24T19:20:40.254+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://firebaseinstallations.googleapis.com:443","tunnelID":"1525433","requestID":53}
+{"level":"debug","time":"2024-06-24T19:20:40.298+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://bf25499qnp.bf.dynatrace.com:443","tunnelID":"1525433","requestID":54}
+{"level":"debug","time":"2024-06-24T19:20:40.571+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://qmgqi5-cdn-settings.appsflyersdk.com:443","tunnelID":"1525433","requestID":55}
+{"level":"debug","time":"2024-06-24T19:20:40.585+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://api.apptentive.com:443","tunnelID":"1525433","requestID":56}
+{"level":"debug","time":"2024-06-24T19:20:40.633+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525433","requestID":57}
+{"level":"debug","time":"2024-06-24T19:20:40.688+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://identity-con-use1.ppr.aligntech.com:443","tunnelID":"1525433","requestID":58}
+{"level":"debug","time":"2024-06-24T19:20:40.740+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://sessions.bugsnag.com:443","tunnelID":"1525433","requestID":59}
+{"level":"debug","time":"2024-06-24T19:20:40.755+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://logging-virginia-mobile.pwa.aligntech.com:443","tunnelID":"1525433","requestID":60}
+{"level":"debug","time":"2024-06-24T19:20:40.842+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://gos-api.gos-gsp.io:443","tunnelID":"1525433","requestID":61}
+{"level":"debug","time":"2024-06-24T19:20:40.848+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://cdn.contentful.com:443","tunnelID":"1525433","requestID":62}
+{"level":"debug","time":"2024-06-24T19:20:41.184+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525433","requestID":63}
+{"level":"debug","time":"2024-06-24T19:20:41.679+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://digitalassetlinks.googleapis.com:443","tunnelID":"1525433","requestID":64}
+{"level":"debug","time":"2024-06-24T19:20:41.842+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://qmgqi5-dlsdk.appsflyersdk.com:443","tunnelID":"1525433","requestID":65}
+{"level":"debug","time":"2024-06-24T19:20:42.152+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://firebase-settings.crashlytics.com:443","tunnelID":"1525433","requestID":66}
+{"level":"debug","time":"2024-06-24T19:20:42.185+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://firebaseinstallations.googleapis.com:443","tunnelID":"1525433","requestID":67}
+{"level":"debug","time":"2024-06-24T19:20:42.189+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://firebase-settings.crashlytics.com:443","tunnelID":"1525433","requestID":68}
+{"level":"debug","time":"2024-06-24T19:20:42.290+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://bf25499qnp.bf.dynatrace.com:443","tunnelID":"1525433","requestID":69}
+{"level":"debug","time":"2024-06-24T19:20:42.401+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://android.apis.google.com:443","tunnelID":"1525433","requestID":70}
+{"level":"debug","time":"2024-06-24T19:20:42.582+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525433","requestID":71}
+{"level":"debug","time":"2024-06-24T19:20:42.603+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://qmgqi5-cdn-settings.appsflyersdk.com:443","tunnelID":"1525433","requestID":72}
+{"level":"debug","time":"2024-06-24T19:20:42.651+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://api.apptentive.com:443","tunnelID":"1525433","requestID":73}
+{"level":"debug","time":"2024-06-24T19:20:42.743+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://identity-con-use1.ppr.aligntech.com:443","tunnelID":"1525433","requestID":74}
+{"level":"debug","time":"2024-06-24T19:20:42.768+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://sessions.bugsnag.com:443","tunnelID":"1525433","requestID":75}
+{"level":"debug","time":"2024-06-24T19:20:42.790+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://api.apptentive.com:443","tunnelID":"1525433","requestID":76}
+{"level":"debug","time":"2024-06-24T19:20:42.793+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://logging-virginia-mobile.pwa.aligntech.com:443","tunnelID":"1525433","requestID":77}
+{"level":"debug","time":"2024-06-24T19:20:42.833+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://api.apptentive.com:443","tunnelID":"1525433","requestID":78}
+{"level":"debug","time":"2024-06-24T19:20:42.897+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://cdn.contentful.com:443","tunnelID":"1525433","requestID":79}
+{"level":"debug","time":"2024-06-24T19:20:43.110+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://api-us.ppr.aligntech.com:443","tunnelID":"1525433","requestID":80}
+{"level":"debug","time":"2024-06-24T19:20:43.582+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://qmgqi5-conversions.appsflyersdk.com:443","tunnelID":"1525433","requestID":81}
+{"level":"debug","time":"2024-06-24T19:20:43.751+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://notify.bugsnag.com:443","tunnelID":"1525433","requestID":82}
+{"level":"debug","time":"2024-06-24T19:20:43.986+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://qmgqi5-dlsdk.appsflyersdk.com:443","tunnelID":"1525433","requestID":83}
+{"level":"debug","time":"2024-06-24T19:20:44.637+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://android.apis.google.com:443","tunnelID":"1525433","requestID":84}
+{"level":"debug","time":"2024-06-24T19:20:44.840+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://api.apptentive.com:443","tunnelID":"1525433","requestID":85}
+{"level":"debug","time":"2024-06-24T19:20:44.840+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://api.apptentive.com:443","tunnelID":"1525433","requestID":86}
+{"level":"debug","time":"2024-06-24T19:20:45.126+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://qmgqi5-gcdsdk.appsflyersdk.com:443","tunnelID":"1525433","requestID":87}
+{"level":"debug","time":"2024-06-24T19:20:45.209+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://api-us.ppr.aligntech.com:443","tunnelID":"1525433","requestID":88}
+{"level":"debug","time":"2024-06-24T19:20:45.679+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://qmgqi5-register.appsflyersdk.com:443","tunnelID":"1525433","requestID":89}
+{"level":"debug","time":"2024-06-24T19:20:45.715+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://qmgqi5-conversions.appsflyersdk.com:443","tunnelID":"1525433","requestID":90}
+{"level":"debug","time":"2024-06-24T19:20:45.870+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://notify.bugsnag.com:443","tunnelID":"1525433","requestID":91}
+{"level":"debug","time":"2024-06-24T19:20:46.233+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://cdn.contentful.com:443","tunnelID":"1525433","requestID":92}
+{"level":"debug","time":"2024-06-24T19:20:46.636+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://cdn.contentful.com:443","tunnelID":"1525433","requestID":93}
+{"level":"debug","time":"2024-06-24T19:20:47.217+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://qmgqi5-gcdsdk.appsflyersdk.com:443","tunnelID":"1525433","requestID":94}
+{"level":"debug","time":"2024-06-24T19:20:47.811+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://qmgqi5-register.appsflyersdk.com:443","tunnelID":"1525433","requestID":95}
+{"level":"debug","time":"2024-06-24T19:20:48.220+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://cdn.contentful.com:443","tunnelID":"1525433","requestID":96}
+{"level":"debug","time":"2024-06-24T19:20:48.361+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525433","requestID":97}
+{"level":"debug","time":"2024-06-24T19:20:48.879+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://digitalassetlinks.googleapis.com:443","tunnelID":"1525433","requestID":98}
+{"level":"debug","time":"2024-06-24T19:20:49.252+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://firebaseinstallations.googleapis.com:443","tunnelID":"1525433","requestID":99}
+{"level":"debug","time":"2024-06-24T19:20:49.289+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://firebase-settings.crashlytics.com:443","tunnelID":"1525433","requestID":100}
+{"level":"debug","time":"2024-06-24T19:20:49.305+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://firebase-settings.crashlytics.com:443","tunnelID":"1525433","requestID":101}
+{"level":"debug","time":"2024-06-24T19:20:49.318+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://bf25499qnp.bf.dynatrace.com:443","tunnelID":"1525433","requestID":102}
+{"level":"debug","time":"2024-06-24T19:20:49.495+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://qmgqi5-cdn-settings.appsflyersdk.com:443","tunnelID":"1525433","requestID":103}
+{"level":"debug","time":"2024-06-24T19:20:49.531+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://api.apptentive.com:443","tunnelID":"1525433","requestID":104}
+{"level":"debug","time":"2024-06-24T19:20:49.619+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://identity-con-use1.ppr.aligntech.com:443","tunnelID":"1525433","requestID":105}
+{"level":"debug","time":"2024-06-24T19:20:49.632+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://sessions.bugsnag.com:443","tunnelID":"1525433","requestID":106}
+{"level":"debug","time":"2024-06-24T19:20:49.670+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://logging-virginia-mobile.pwa.aligntech.com:443","tunnelID":"1525433","requestID":107}
+{"level":"debug","time":"2024-06-24T19:20:49.729+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525433","requestID":108}
+{"level":"debug","time":"2024-06-24T19:20:49.808+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://cdn.contentful.com:443","tunnelID":"1525433","requestID":109}
+{"level":"debug","time":"2024-06-24T19:20:50.902+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://qmgqi5-dlsdk.appsflyersdk.com:443","tunnelID":"1525433","requestID":110}
+{"level":"debug","time":"2024-06-24T19:20:51.339+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://android.apis.google.com:443","tunnelID":"1525433","requestID":111}
+{"level":"debug","time":"2024-06-24T19:20:51.628+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://api.apptentive.com:443","tunnelID":"1525433","requestID":112}
+{"level":"debug","time":"2024-06-24T19:20:51.632+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://api.apptentive.com:443","tunnelID":"1525433","requestID":113}
+{"level":"debug","time":"2024-06-24T19:20:51.934+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://api-us.ppr.aligntech.com:443","tunnelID":"1525433","requestID":114}
+{"level":"debug","time":"2024-06-24T19:20:52.494+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://notify.bugsnag.com:443","tunnelID":"1525433","requestID":115}
+{"level":"debug","time":"2024-06-24T19:20:52.674+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://qmgqi5-conversions.appsflyersdk.com:443","tunnelID":"1525433","requestID":116}
+{"level":"debug","time":"2024-06-24T19:20:54.142+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://qmgqi5-gcdsdk.appsflyersdk.com:443","tunnelID":"1525433","requestID":117}
+{"level":"debug","time":"2024-06-24T19:20:54.595+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://qmgqi5-register.appsflyersdk.com:443","tunnelID":"1525433","requestID":118}
+{"level":"debug","time":"2024-06-24T19:20:54.788+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://cdn.contentful.com:443","tunnelID":"1525433","requestID":119}
+{"level":"debug","time":"2024-06-24T19:20:55.110+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://cdn.contentful.com:443","tunnelID":"1525433","requestID":120}
+{"level":"debug","time":"2024-06-24T19:21:02.787+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://youtubei.googleapis.com:443","tunnelID":"1525433","requestID":121}
+{"level":"debug","time":"2024-06-24T19:21:04.892+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://digitalassetlinks.googleapis.com:443","tunnelID":"1525433","requestID":122}
+{"level":"debug","time":"2024-06-24T19:21:05.671+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://firebase-settings.crashlytics.com:443","tunnelID":"1525433","requestID":123}
+{"level":"debug","time":"2024-06-24T19:21:05.671+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://firebase-settings.crashlytics.com:443","tunnelID":"1525433","requestID":124}
+{"level":"debug","time":"2024-06-24T19:21:05.674+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://firebaseinstallations.googleapis.com:443","tunnelID":"1525433","requestID":126}
+{"level":"debug","time":"2024-06-24T19:21:05.674+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://bf25499qnp.bf.dynatrace.com:443","tunnelID":"1525433","requestID":125}
+{"level":"debug","time":"2024-06-24T19:21:05.876+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://qmgqi5-cdn-settings.appsflyersdk.com:443","tunnelID":"1525433","requestID":127}
+{"level":"debug","time":"2024-06-24T19:21:05.890+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://api.apptentive.com:443","tunnelID":"1525433","requestID":128}
+{"level":"debug","time":"2024-06-24T19:21:05.994+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://identity-con-use1.ppr.aligntech.com:443","tunnelID":"1525433","requestID":129}
+{"level":"debug","time":"2024-06-24T19:21:06.013+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://sessions.bugsnag.com:443","tunnelID":"1525433","requestID":130}
+{"level":"debug","time":"2024-06-24T19:21:06.030+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://logging-virginia-mobile.pwa.aligntech.com:443","tunnelID":"1525433","requestID":131}
+{"level":"debug","time":"2024-06-24T19:21:06.094+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://cdn.contentful.com:443","tunnelID":"1525433","requestID":132}
+{"level":"debug","time":"2024-06-24T19:21:07.141+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://qmgqi5-dlsdk.appsflyersdk.com:443","tunnelID":"1525433","requestID":133}
+{"level":"debug","time":"2024-06-24T19:21:07.860+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://android.apis.google.com:443","tunnelID":"1525433","requestID":134}
+{"level":"debug","time":"2024-06-24T19:21:08.043+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://android.apis.google.com:443","tunnelID":"1525433","requestID":135}
+{"level":"debug","time":"2024-06-24T19:21:08.104+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://api.apptentive.com:443","tunnelID":"1525433","requestID":136}
+{"level":"debug","time":"2024-06-24T19:21:08.124+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://api.apptentive.com:443","tunnelID":"1525433","requestID":137}
+{"level":"debug","time":"2024-06-24T19:21:08.368+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://api-us.ppr.aligntech.com:443","tunnelID":"1525433","requestID":138}
+{"level":"debug","time":"2024-06-24T19:21:08.782+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://qmgqi5-conversions.appsflyersdk.com:443","tunnelID":"1525433","requestID":139}
+{"level":"debug","time":"2024-06-24T19:21:08.831+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://notify.bugsnag.com:443","tunnelID":"1525433","requestID":140}
+{"level":"debug","time":"2024-06-24T19:21:10.225+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://qmgqi5-gcdsdk.appsflyersdk.com:443","tunnelID":"1525433","requestID":141}
+{"level":"debug","time":"2024-06-24T19:21:10.748+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://qmgqi5-register.appsflyersdk.com:443","tunnelID":"1525433","requestID":142}
+{"level":"debug","time":"2024-06-24T19:21:10.914+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://www.googleapis.com:443","tunnelID":"1525433","requestID":143}
+{"level":"debug","time":"2024-06-24T19:21:11.219+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://cdn.contentful.com:443","tunnelID":"1525433","requestID":144}
+{"level":"debug","time":"2024-06-24T19:21:11.273+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://cdn.contentful.com:443","tunnelID":"1525433","requestID":145}
+{"level":"debug","time":"2024-06-24T19:21:13.957+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://digitalassetlinks.googleapis.com:443","tunnelID":"1525433","requestID":146}
+{"level":"debug","time":"2024-06-24T19:21:14.862+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://firebase-settings.crashlytics.com:443","tunnelID":"1525433","requestID":147}
+{"level":"debug","time":"2024-06-24T19:21:14.862+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://firebase-settings.crashlytics.com:443","tunnelID":"1525433","requestID":148}
+{"level":"debug","time":"2024-06-24T19:21:14.866+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://bf25499qnp.bf.dynatrace.com:443","tunnelID":"1525433","requestID":149}
+{"level":"debug","time":"2024-06-24T19:21:14.866+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://firebaseinstallations.googleapis.com:443","tunnelID":"1525433","requestID":150}
+{"level":"debug","time":"2024-06-24T19:21:15.174+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://api.apptentive.com:443","tunnelID":"1525433","requestID":151}
+{"level":"debug","time":"2024-06-24T19:21:15.174+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://qmgqi5-cdn-settings.appsflyersdk.com:443","tunnelID":"1525433","requestID":152}
+{"level":"debug","time":"2024-06-24T19:21:15.195+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://identity-con-use1.ppr.aligntech.com:443","tunnelID":"1525433","requestID":153}
+{"level":"debug","time":"2024-06-24T19:21:15.211+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://sessions.bugsnag.com:443","tunnelID":"1525433","requestID":155}
+{"level":"debug","time":"2024-06-24T19:21:15.211+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://logging-virginia-mobile.pwa.aligntech.com:443","tunnelID":"1525433","requestID":154}
+{"level":"debug","time":"2024-06-24T19:21:15.466+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://cdn.contentful.com:443","tunnelID":"1525433","requestID":156}
+{"level":"debug","time":"2024-06-24T19:21:15.969+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://digitalassetlinks.googleapis.com:443","tunnelID":"1525433","requestID":157}
+{"level":"debug","time":"2024-06-24T19:21:16.576+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://qmgqi5-dlsdk.appsflyersdk.com:443","tunnelID":"1525433","requestID":158}
+{"level":"debug","time":"2024-06-24T19:21:16.762+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://firebase-settings.crashlytics.com:443","tunnelID":"1525433","requestID":159}
+{"level":"debug","time":"2024-06-24T19:21:16.762+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://firebaseinstallations.googleapis.com:443","tunnelID":"1525433","requestID":160}
+{"level":"debug","time":"2024-06-24T19:21:16.765+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://bf25499qnp.bf.dynatrace.com:443","tunnelID":"1525433","requestID":161}
+{"level":"debug","time":"2024-06-24T19:21:16.792+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://firebase-settings.crashlytics.com:443","tunnelID":"1525433","requestID":162}
+{"level":"debug","time":"2024-06-24T19:21:16.976+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://qmgqi5-cdn-settings.appsflyersdk.com:443","tunnelID":"1525433","requestID":163}
+{"level":"debug","time":"2024-06-24T19:21:17.020+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://api.apptentive.com:443","tunnelID":"1525433","requestID":164}
+{"level":"debug","time":"2024-06-24T19:21:17.038+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://android.apis.google.com:443","tunnelID":"1525433","requestID":165}
+{"level":"debug","time":"2024-06-24T19:21:17.108+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://identity-con-use1.ppr.aligntech.com:443","tunnelID":"1525433","requestID":166}
+{"level":"debug","time":"2024-06-24T19:21:17.126+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://sessions.bugsnag.com:443","tunnelID":"1525433","requestID":167}
+{"level":"debug","time":"2024-06-24T19:21:17.134+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://logging-virginia-mobile.pwa.aligntech.com:443","tunnelID":"1525433","requestID":168}
+{"level":"debug","time":"2024-06-24T19:21:17.213+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://cdn.contentful.com:443","tunnelID":"1525433","requestID":169}
+{"level":"debug","time":"2024-06-24T19:21:17.516+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://android.apis.google.com:443","tunnelID":"1525433","requestID":170}
+{"level":"debug","time":"2024-06-24T19:21:17.751+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://api.apptentive.com:443","tunnelID":"1525433","requestID":171}
+{"level":"debug","time":"2024-06-24T19:21:18.082+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://api.apptentive.com:443","tunnelID":"1525433","requestID":172}
+{"level":"debug","time":"2024-06-24T19:21:18.104+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://api-us.ppr.aligntech.com:443","tunnelID":"1525433","requestID":173}
+{"level":"debug","time":"2024-06-24T19:21:18.260+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://qmgqi5-dlsdk.appsflyersdk.com:443","tunnelID":"1525433","requestID":174}
+{"level":"debug","time":"2024-06-24T19:21:18.318+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://gos-api.gos-gsp.io:443","tunnelID":"1525433","requestID":175}
+{"level":"debug","time":"2024-06-24T19:21:18.716+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525433","requestID":176}
+{"level":"debug","time":"2024-06-24T19:21:18.859+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://android.apis.google.com:443","tunnelID":"1525433","requestID":177}
+{"level":"debug","time":"2024-06-24T19:21:19.030+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://digitalassetlinks.googleapis.com:443","tunnelID":"1525433","requestID":178}
+{"level":"debug","time":"2024-06-24T19:21:19.105+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://qmgqi5-conversions.appsflyersdk.com:443","tunnelID":"1525433","requestID":179}
+{"level":"debug","time":"2024-06-24T19:21:19.341+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://api.apptentive.com:443","tunnelID":"1525433","requestID":180}
+{"level":"debug","time":"2024-06-24T19:21:19.349+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://api.apptentive.com:443","tunnelID":"1525433","requestID":181}
+{"level":"debug","time":"2024-06-24T19:21:19.445+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://notify.bugsnag.com:443","tunnelID":"1525433","requestID":182}
+{"level":"debug","time":"2024-06-24T19:21:19.597+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://api-us.ppr.aligntech.com:443","tunnelID":"1525433","requestID":183}
+{"level":"debug","time":"2024-06-24T19:21:19.781+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://firebase-settings.crashlytics.com:443","tunnelID":"1525433","requestID":184}
+{"level":"debug","time":"2024-06-24T19:21:19.808+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://firebaseinstallations.googleapis.com:443","tunnelID":"1525433","requestID":185}
+{"level":"debug","time":"2024-06-24T19:21:19.845+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://firebase-settings.crashlytics.com:443","tunnelID":"1525433","requestID":186}
+{"level":"debug","time":"2024-06-24T19:21:19.849+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://bf25499qnp.bf.dynatrace.com:443","tunnelID":"1525433","requestID":187}
+{"level":"debug","time":"2024-06-24T19:21:20.112+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://notify.bugsnag.com:443","tunnelID":"1525433","requestID":188}
+{"level":"debug","time":"2024-06-24T19:21:20.113+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525433","requestID":189}
+{"level":"debug","time":"2024-06-24T19:21:20.117+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://qmgqi5-conversions.appsflyersdk.com:443","tunnelID":"1525433","requestID":190}
+{"level":"debug","time":"2024-06-24T19:21:20.161+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://qmgqi5-cdn-settings.appsflyersdk.com:443","tunnelID":"1525433","requestID":191}
+{"level":"debug","time":"2024-06-24T19:21:20.225+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://api.apptentive.com:443","tunnelID":"1525433","requestID":192}
+{"level":"debug","time":"2024-06-24T19:21:20.280+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://sessions.bugsnag.com:443","tunnelID":"1525433","requestID":193}
+{"level":"debug","time":"2024-06-24T19:21:20.285+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://identity-con-use1.ppr.aligntech.com:443","tunnelID":"1525433","requestID":194}
+{"level":"debug","time":"2024-06-24T19:21:20.440+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://logging-virginia-mobile.pwa.aligntech.com:443","tunnelID":"1525433","requestID":195}
+{"level":"debug","time":"2024-06-24T19:21:20.518+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://cdn.contentful.com:443","tunnelID":"1525433","requestID":196}
+{"level":"debug","time":"2024-06-24T19:21:21.621+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://qmgqi5-gcdsdk.appsflyersdk.com:443","tunnelID":"1525433","requestID":197}
+{"level":"debug","time":"2024-06-24T19:21:21.624+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://qmgqi5-dlsdk.appsflyersdk.com:443","tunnelID":"1525433","requestID":198}
+{"level":"debug","time":"2024-06-24T19:21:22.037+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://qmgqi5-register.appsflyersdk.com:443","tunnelID":"1525433","requestID":199}
+{"level":"debug","time":"2024-06-24T19:21:22.441+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://android.apis.google.com:443","tunnelID":"1525433","requestID":200}
+{"level":"debug","time":"2024-06-24T19:21:22.546+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://api.apptentive.com:443","tunnelID":"1525433","requestID":202}
+{"level":"debug","time":"2024-06-24T19:21:22.546+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://api.apptentive.com:443","tunnelID":"1525433","requestID":201}
+{"level":"debug","time":"2024-06-24T19:21:22.567+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://cdn.contentful.com:443","tunnelID":"1525433","requestID":203}
+{"level":"debug","time":"2024-06-24T19:21:22.645+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://api-us.ppr.aligntech.com:443","tunnelID":"1525433","requestID":204}
+{"level":"debug","time":"2024-06-24T19:21:22.740+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://cdn.contentful.com:443","tunnelID":"1525433","requestID":205}
+{"level":"debug","time":"2024-06-24T19:21:22.797+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://www.googleapis.com:443","tunnelID":"1525433","requestID":206}
+{"level":"debug","time":"2024-06-24T19:21:23.426+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://notify.bugsnag.com:443","tunnelID":"1525433","requestID":207}
+{"level":"debug","time":"2024-06-24T19:21:23.488+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://qmgqi5-conversions.appsflyersdk.com:443","tunnelID":"1525433","requestID":208}
+{"level":"debug","time":"2024-06-24T19:21:25.201+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://qmgqi5-gcdsdk.appsflyersdk.com:443","tunnelID":"1525433","requestID":209}
+{"level":"debug","time":"2024-06-24T19:21:25.849+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://qmgqi5-register.appsflyersdk.com:443","tunnelID":"1525433","requestID":210}
+{"level":"debug","time":"2024-06-24T19:21:26.043+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://cdn.contentful.com:443","tunnelID":"1525433","requestID":211}
+{"level":"debug","time":"2024-06-24T19:21:46.496+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://gos-api.gos-gsp.io:443","tunnelID":"1525433","requestID":212}
+{"level":"debug","time":"2024-06-24T19:21:46.938+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525433","requestID":213}
+{"level":"debug","time":"2024-06-24T19:21:47.790+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://firebaseinstallations.googleapis.com:443","tunnelID":"1525433","requestID":215}
+{"level":"debug","time":"2024-06-24T19:21:47.790+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://digitalassetlinks.googleapis.com:443","tunnelID":"1525433","requestID":214}
+{"level":"debug","time":"2024-06-24T19:21:47.809+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://firebase-settings.crashlytics.com:443","tunnelID":"1525433","requestID":216}
+{"level":"debug","time":"2024-06-24T19:21:47.810+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://firebase-settings.crashlytics.com:443","tunnelID":"1525433","requestID":217}
+{"level":"debug","time":"2024-06-24T19:21:47.816+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://bf25499qnp.bf.dynatrace.com:443","tunnelID":"1525433","requestID":218}
+{"level":"debug","time":"2024-06-24T19:21:48.095+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://api.apptentive.com:443","tunnelID":"1525433","requestID":219}
+{"level":"debug","time":"2024-06-24T19:21:48.114+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://qmgqi5-cdn-settings.appsflyersdk.com:443","tunnelID":"1525433","requestID":220}
+{"level":"debug","time":"2024-06-24T19:21:48.131+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://identity-con-use1.ppr.aligntech.com:443","tunnelID":"1525433","requestID":221}
+{"level":"debug","time":"2024-06-24T19:21:48.313+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://logging-virginia-mobile.pwa.aligntech.com:443","tunnelID":"1525433","requestID":222}
+{"level":"debug","time":"2024-06-24T19:21:48.319+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://cdn.contentful.com:443","tunnelID":"1525433","requestID":223}
+{"level":"debug","time":"2024-06-24T19:21:48.336+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://sessions.bugsnag.com:443","tunnelID":"1525433","requestID":224}
+{"level":"debug","time":"2024-06-24T19:21:49.247+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525433","requestID":225}
+{"level":"debug","time":"2024-06-24T19:21:49.838+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://qmgqi5-dlsdk.appsflyersdk.com:443","tunnelID":"1525433","requestID":226}
+{"level":"debug","time":"2024-06-24T19:21:50.389+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://api.apptentive.com:443","tunnelID":"1525433","requestID":227}
+{"level":"debug","time":"2024-06-24T19:21:50.402+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://api.apptentive.com:443","tunnelID":"1525433","requestID":228}
+{"level":"debug","time":"2024-06-24T19:21:50.857+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://android.apis.google.com:443","tunnelID":"1525433","requestID":229}
+{"level":"debug","time":"2024-06-24T19:21:50.860+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://api-us.ppr.aligntech.com:443","tunnelID":"1525433","requestID":230}
+{"level":"debug","time":"2024-06-24T19:21:51.352+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://notify.bugsnag.com:443","tunnelID":"1525433","requestID":231}
+{"level":"debug","time":"2024-06-24T19:21:51.507+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://qmgqi5-conversions.appsflyersdk.com:443","tunnelID":"1525433","requestID":232}
+{"level":"debug","time":"2024-06-24T19:21:53.146+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://qmgqi5-gcdsdk.appsflyersdk.com:443","tunnelID":"1525433","requestID":233}
+{"level":"debug","time":"2024-06-24T19:21:53.907+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://cdn.contentful.com:443","tunnelID":"1525433","requestID":235}
+{"level":"debug","time":"2024-06-24T19:21:53.907+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://qmgqi5-register.appsflyersdk.com:443","tunnelID":"1525433","requestID":234}
+{"level":"debug","time":"2024-06-24T19:21:54.172+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://cdn.contentful.com:443","tunnelID":"1525433","requestID":236}
+{"level":"debug","time":"2024-06-24T19:23:21.021+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://dl.google.com:443","tunnelID":"1525433","requestID":237}
+{"level":"debug","time":"2024-06-24T19:23:21.183+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://dl.google.com:443","tunnelID":"1525433","requestID":238}
+{"level":"debug","time":"2024-06-24T19:23:21.199+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://dl.google.com:443","tunnelID":"1525433","requestID":239}
+{"level":"debug","time":"2024-06-24T19:23:21.208+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://dl.google.com:443","tunnelID":"1525433","requestID":240}
+{"level":"debug","time":"2024-06-24T19:23:21.227+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://dl.google.com:443","tunnelID":"1525433","requestID":241}
+{"level":"debug","time":"2024-06-24T19:23:21.372+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://tenor.googleapis.com:443","tunnelID":"1525433","requestID":242}
+{"level":"debug","time":"2024-06-24T19:23:21.375+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://tenor.googleapis.com:443","tunnelID":"1525433","requestID":243}
+{"level":"debug","time":"2024-06-24T19:23:21.377+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://tenor.googleapis.com:443","tunnelID":"1525433","requestID":244}
+{"level":"debug","time":"2024-06-24T19:23:21.386+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://tenor.googleapis.com:443","tunnelID":"1525433","requestID":245}
+{"level":"debug","time":"2024-06-24T19:23:21.401+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://tenor.googleapis.com:443","tunnelID":"1525433","requestID":246}
+{"level":"debug","time":"2024-06-24T19:23:21.417+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://tenor.googleapis.com:443","tunnelID":"1525433","requestID":247}
+{"level":"debug","time":"2024-06-24T19:23:21.849+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://tenor.googleapis.com:443","tunnelID":"1525433","requestID":248}
+{"level":"debug","time":"2024-06-24T19:23:21.993+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://geller-pa.googleapis.com:443","tunnelID":"1525433","requestID":249}
+{"level":"debug","time":"2024-06-24T19:23:22.005+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://geller-pa.googleapis.com:443","tunnelID":"1525433","requestID":250}
+{"level":"debug","time":"2024-06-24T19:23:22.005+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://geller-pa.googleapis.com:443","tunnelID":"1525433","requestID":251}
+{"level":"debug","time":"2024-06-24T19:23:22.019+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://geller-pa.googleapis.com:443","tunnelID":"1525433","requestID":252}
+{"level":"debug","time":"2024-06-24T19:23:22.023+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://geller-pa.googleapis.com:443","tunnelID":"1525433","requestID":253}
+{"level":"debug","time":"2024-06-24T19:23:22.024+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://geller-pa.googleapis.com:443","tunnelID":"1525433","requestID":254}
+{"level":"debug","time":"2024-06-24T19:23:22.033+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://geller-pa.googleapis.com:443","tunnelID":"1525433","requestID":255}
+{"level":"debug","time":"2024-06-24T19:23:22.034+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://geller-pa.googleapis.com:443","tunnelID":"1525433","requestID":256}
+{"level":"debug","time":"2024-06-24T19:23:22.036+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://geller-pa.googleapis.com:443","tunnelID":"1525433","requestID":257}
+{"level":"debug","time":"2024-06-24T19:23:22.040+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://geller-pa.googleapis.com:443","tunnelID":"1525433","requestID":258}
+{"level":"debug","time":"2024-06-24T19:23:22.042+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://geller-pa.googleapis.com:443","tunnelID":"1525433","requestID":259}
+{"level":"debug","time":"2024-06-24T19:23:22.421+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://geller-pa.googleapis.com:443","tunnelID":"1525433","requestID":260}
+{"level":"debug","time":"2024-06-24T19:23:26.122+0530","caller":"cmd/lt.go:271","msg":"main: received interrupt signal - attempting graceful shutdown ...."}
+{"level":"debug","time":"2024-06-24T19:23:26.123+0530","caller":"cmd/lt.go:273","msg":"main: telling goroutines to stop"}
+{"level":"debug","time":"2024-06-24T19:23:26.123+0530","caller":"callback/setup.go:118","msg":"Shutting down the callback agent"}
+{"level":"debug","time":"2024-06-24T19:23:26.123+0530","caller":"custom/setup.go:855","msg":"Exiting the sink proxy","tunnelID":"1525433"}
+{"level":"debug","time":"2024-06-24T19:23:26.123+0530","caller":"apiserver/setup.go:144","msg":"Shutting down the server"}
+{"level":"debug","time":"2024-06-24T19:23:26.123+0530","caller":"core/lifecycle.go:438","msg":"Context cancelled"}
+{"level":"info","time":"2024-06-24T19:23:26.123+0530","caller":"core/lifecycle.go:440","msg":"Stopping tunnel"}
+{"level":"debug","time":"2024-06-24T19:23:26.124+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"debug","time":"2024-06-24T19:23:26.124+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"error","time":"2024-06-24T19:23:26.267+0530","caller":"ssh/ssh.go:252","msg":"Unable to connect to 127.0.0.1:9090, error: dial tcp 127.0.0.1:9090: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"error","time":"2024-06-24T19:23:26.274+0530","caller":"ssh/ssh.go:252","msg":"Unable to connect to 127.0.0.1:9090, error: dial tcp 127.0.0.1:9090: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"error","time":"2024-06-24T19:23:26.274+0530","caller":"ssh/ssh.go:252","msg":"Unable to connect to 127.0.0.1:9090, error: dial tcp 127.0.0.1:9090: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"error","time":"2024-06-24T19:23:26.281+0530","caller":"ssh/ssh.go:252","msg":"Unable to connect to 127.0.0.1:9090, error: dial tcp 127.0.0.1:9090: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"error","time":"2024-06-24T19:23:26.288+0530","caller":"ssh/ssh.go:252","msg":"Unable to connect to 127.0.0.1:9090, error: dial tcp 127.0.0.1:9090: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"error","time":"2024-06-24T19:23:26.289+0530","caller":"ssh/ssh.go:252","msg":"Unable to connect to 127.0.0.1:9090, error: dial tcp 127.0.0.1:9090: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"error","time":"2024-06-24T19:23:26.517+0530","caller":"ssh/ssh.go:252","msg":"Unable to connect to 127.0.0.1:9090, error: dial tcp 127.0.0.1:9090: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"error","time":"2024-06-24T19:23:26.518+0530","caller":"ssh/ssh.go:252","msg":"Unable to connect to 127.0.0.1:9090, error: dial tcp 127.0.0.1:9090: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"error","time":"2024-06-24T19:23:26.518+0530","caller":"ssh/ssh.go:252","msg":"Unable to connect to 127.0.0.1:9090, error: dial tcp 127.0.0.1:9090: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"error","time":"2024-06-24T19:23:26.522+0530","caller":"ssh/ssh.go:252","msg":"Unable to connect to 127.0.0.1:9090, error: dial tcp 127.0.0.1:9090: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"error","time":"2024-06-24T19:23:26.524+0530","caller":"ssh/ssh.go:252","msg":"Unable to connect to 127.0.0.1:9090, error: dial tcp 127.0.0.1:9090: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"error","time":"2024-06-24T19:23:26.538+0530","caller":"ssh/ssh.go:252","msg":"Unable to connect to 127.0.0.1:9090, error: dial tcp 127.0.0.1:9090: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"debug","time":"2024-06-24T19:23:28.645+0530","caller":"ssh/ssh.go:222","msg":"Remote connection on remote port: 9024 closed, reason: EOF"}
+{"level":"debug","time":"2024-06-24T19:23:28.645+0530","caller":"ssh/ssh.go:244","msg":"closed ssh connection with port 9024"}
+{"level":"debug","time":"2024-06-24T19:23:28.648+0530","caller":"ssh/ssh.go:222","msg":"Remote connection on remote port: 24963 closed, reason: EOF"}
+{"level":"debug","time":"2024-06-24T19:23:28.648+0530","caller":"ssh/ssh.go:244","msg":"closed ssh connection with port 24963"}
+{"level":"debug","time":"2024-06-24T19:23:28.651+0530","caller":"ssh/ssh.go:222","msg":"Remote connection on remote port: 15377 closed, reason: EOF"}
+{"level":"debug","time":"2024-06-24T19:23:28.651+0530","caller":"ssh/ssh.go:244","msg":"closed ssh connection with port 15377"}
+{"level":"debug","time":"2024-06-24T19:23:28.657+0530","caller":"ssh/ssh.go:222","msg":"Remote connection on remote port: 24329 closed, reason: EOF"}
+{"level":"debug","time":"2024-06-24T19:23:28.657+0530","caller":"ssh/ssh.go:244","msg":"closed ssh connection with port 24329"}
+{"level":"debug","time":"2024-06-24T19:23:28.657+0530","caller":"ssh/ssh.go:222","msg":"Remote connection on remote port: 26263 closed, reason: EOF"}
+{"level":"debug","time":"2024-06-24T19:23:28.657+0530","caller":"ssh/ssh.go:244","msg":"closed ssh connection with port 26263"}
+{"level":"info","time":"2024-06-24T19:23:29.010+0530","caller":"core/lifecycle.go:447","msg":"Tunnel stopped successfully"}
+{"level":"debug","time":"2024-06-24T19:23:29.011+0530","caller":"core/lifecycle.go:449","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-06-24T19:23:29.011+0530","caller":"core/lifecycle.go:450","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2024-06-24T19:23:29.011+0530","caller":"core/lifecycle.go:452","msg":"All goroutines exited"}
+{"level":"debug","time":"2024-06-24T19:23:29.011+0530","caller":"cmd/lt.go:263","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2024-06-24T19:23:29.011+0530","caller":"cmd/lt.go:277","msg":"Go routines exited within timeout"}
