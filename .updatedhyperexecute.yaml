@@ -1,0 +1,139 @@
+alwaysRunPostSteps: false
+appium: false
+autosplit: true
+betaFeature:
+    setPartiallyCompletedAsCompleted: false
+captureScreenRecordingForScenarios: false
+codeDirectory: LambdaTest_Demo-main
+collectLocalGitData: true
+combineTasksInMatrixMode: false
+concurrency: 4
+cypress: false
+differentialUpload:
+    enabled: true
+    forcedDisabled: false
+    ttlHours: 60
+dynamicAllocation: false
+errorCategorizedOnFailureOnly: false
+framework:
+    additional_args: null
+    args:
+        appId: ""
+        appPath: ""
+        avoidAppLaunch: false
+        deviceSelectionStrategy: ""
+        devices: []
+        disableReleaseDevice: false
+        filters:
+            attributes: []
+        fixedIP: ""
+        isRealMobile: false
+        isVirtualDevice: false
+        language: ""
+        locale: ""
+        minorOsVersion: false
+        mobileDC: null
+        platformName: ""
+        playwrightRD: false
+        preservedDevice: false
+        queueTimeout: 0
+        resignApp: true
+        shards:
+            mappings: []
+        skipInstall: false
+        skipUninstallPreviousBuild: false
+        skipXMLOnRun: false
+        testSuiteAppId: ""
+        testSuitePath: ""
+        uninstallPreviousBuild: false
+        xcTestPlanId: ""
+        xcTestPlanPath: ""
+    baseCommand: ""
+    defaultReports: false
+    discoveryFlags: []
+    discoveryType: ""
+    downloadURL: ""
+    flags: []
+    isTestNGXMLSuite: false
+    licenseKey: ""
+    name: ""
+    runnerFlags: []
+    toscaArgs: null
+    userdefinediscovery: false
+    version: ""
+    workingDirectory: ""
+globalTimeout: 150
+jobID: ddb8bfb0-279f-4001-a7ce-f81311675395
+jobLabel:
+    - sp-test
+key: LoyMEMP9NWiHaeCpfBaGfu7c3hrjYfiksHEe6lSb3zJtqSGp3Z
+localHTTPProxy: ""
+maxRetries: 1
+maxRetriesPreSteps: 0
+meta:
+    ramp_time: 60
+    users: 200
+partialReports:
+    type: html
+    location: ./
+    frameworkName: jmeter
+    email:
+        to: []
+        metaInfo: []
+        linkValidity: 0
+    configPath: ""
+    configPathURL: ""
+performance:
+    count: null
+    jmeter:
+        - duration: 120
+          iterations: null
+          jmx: ./test.jmx
+          platform: ""
+          rampup: 60
+          region: eastus
+          splitcsv: null
+          url: null
+          users: 100
+        - duration: 120
+          iterations: null
+          jmx: ./test.jmx
+          platform: ""
+          rampup: 60
+          region: westus
+          splitcsv: null
+          url: null
+          users: 100
+    rate: null
+    testNamePrefix: null
+    type: jmeter
+platformConfig: null
+postDirectives:
+    commands: []
+    shell: ""
+    workingDirectory: ""
+preDirectives:
+    commands: []
+    maxRetries: 0
+    shell: ""
+    workingDirectory: ""
+project:
+    id: 01J2KMYGK42WR6VFZC98PJQ9GN
+    name: SP - sample JMeter project
+    type: jmeter
+report: true
+runson: linux
+scenarioCommandStatusOnly: true
+shell: bash
+sourcePayload:
+    verifySSL: true
+storageType: ""
+testDiscoveryResultV3: []
+testSuiteTimeout: 150
+testSuites: []
+testType: playwright
+triggerMode: false
+tunnelOpts:
+    testsPerTunnel: 10
+user: mudassars
+version: "0.1"

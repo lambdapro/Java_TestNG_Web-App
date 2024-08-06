@@ -1,0 +1,221 @@
+{"level":"info","time":"2024-06-24T21:34:36.774+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.1.31"}
+{"level":"debug","time":"2024-06-24T21:34:36.775+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2024-06-24T21:34:36.775+0530","caller":"core/lifecycle.go:42","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2024-06-24T21:34:36.775+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2024-06-24T21:34:36.776+0530","caller":"core/lifecycle.go:65","msg":"Starting tunnel With flags: --user mudassars --key ***** --hypCallbackURL http://127.0.0.1:54982/started --env ht-prod --tunnelName JrlWmyaNrEgjZbra --retry-on-failure --verbose --infoAPIPort 54983 --logFile D:\\demo\\LambdaTest_Demo-main\\logs\\tunnel\\JrlWmyaNrEgjZbra-1.log"}
+{"level":"debug","time":"2024-06-24T21:34:53.513+0530","caller":"core/lifecycle.go:83","msg":"Remote config fetched"}
+{"level":"debug","time":"2024-06-24T21:34:53.778+0530","caller":"apiserver/setup.go:166","msg":"Starting API server"}
+{"level":"debug","time":"2024-06-24T21:34:53.778+0530","caller":"networkscanner/setup.go:69","msg":"Trying on port 22"}
+{"level":"debug","time":"2024-06-24T21:34:53.778+0530","caller":"networkscanner/setup.go:103","msg":"Trying on port 443"}
+{"level":"debug","time":"2024-06-24T21:34:53.778+0530","caller":"custom/setup.go:867","msg":"Starting sink proxy"}
+{"level":"debug","time":"2024-06-24T21:34:53.778+0530","caller":"networkscanner/setup.go:191","msg":"Trying on port 443"}
+{"level":"debug","time":"2024-06-24T21:34:53.778+0530","caller":"callback/setup.go:54","msg":"Starting the callback agent"}
+{"level":"debug","time":"2024-06-24T21:34:53.778+0530","caller":"networkscanner/setup.go:137","msg":"Trying over ssh over ws"}
+{"level":"debug","time":"2024-06-24T21:34:53.778+0530","caller":"apiserver/setup.go:148","msg":"Starting API server for tunnel info on port: 54983"}
+{"level":"info","time":"2024-06-24T21:34:53.780+0530","caller":"custom/setup.go:810","msg":"Tunnel binary started on port :9090"}
+{"level":"debug","time":"2024-06-24T21:34:53.813+0530","caller":"networkscanner/setup.go:207","msg":"TCP connection was successful"}
+{"level":"debug","time":"2024-06-24T21:34:53.880+0530","caller":"networkscanner/setup.go:154","msg":"WSS connection was successful"}
+{"level":"debug","time":"2024-06-24T21:34:54.264+0530","caller":"networkscanner/setup.go:124","msg":"SSH connection over port 443 successful"}
+{"level":"debug","time":"2024-06-24T21:34:54.347+0530","caller":"networkscanner/setup.go:179","msg":"SSH connection over ws successful"}
+{"level":"debug","time":"2024-06-24T21:34:54.361+0530","caller":"networkscanner/setup.go:90","msg":"SSH connection over port 22 successful"}
+{"level":"info","time":"2024-06-24T21:34:54.361+0530","caller":"core/lifecycle.go:122","msg":"Using ssh(over_22) :: connection mode"}
+{"level":"info","time":"2024-06-24T21:34:54.361+0530","caller":"core/lifecycle.go:272","msg":"Launching tunnel"}
+{"level":"debug","time":"2024-06-24T21:34:54.361+0530","caller":"ws/control.go:34","msg":"Starting control ws connection at wss://hts.lambdatest.com/monitor"}
+{"level":"debug","time":"2024-06-24T21:34:54.818+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2024-06-24T21:34:54.818+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2024-06-24T21:34:56.574+0530","caller":"tunnelmanager/controller.go:149","msg":"otel disabled"}
+{"level":"debug","time":"2024-06-24T21:34:56.574+0530","caller":"core/lifecycle.go:371","msg":"Sending tunnel registered message to channels"}
+{"level":"debug","time":"2024-06-24T21:34:56.574+0530","caller":"ws/control.go:196","msg":"Tunnel registered message received on control channel"}
+{"level":"debug","time":"2024-06-24T21:34:56.574+0530","caller":"ssh/setup.go:71","msg":"Using 5 ssh connection"}
+{"level":"debug","time":"2024-06-24T21:34:56.574+0530","caller":"ws/control.go:200","msg":"controller bus registered"}
+{"level":"debug","time":"2024-06-24T21:34:57.249+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 8147"}
+{"level":"debug","time":"2024-06-24T21:34:57.279+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 14157"}
+{"level":"info","time":"2024-06-24T21:34:57.279+0530","caller":"core/lifecycle.go:394","msg":"You can start testing now"}
+{"level":"info","time":"2024-06-24T21:34:57.279+0530","caller":"core/lifecycle.go:395","msg":"Tunnel ID: 1525699"}
+{"level":"debug","time":"2024-06-24T21:34:57.279+0530","caller":"core/lifecycle.go:396","msg":"Remote Listener Started on Port 5881"}
+{"level":"debug","time":"2024-06-24T21:34:57.284+0530","caller":"callback/setup.go:103","msg":"Webhook endpoint http://127.0.0.1:54982/started successfully notified"}
+{"level":"debug","time":"2024-06-24T21:34:57.329+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 6474"}
+{"level":"debug","time":"2024-06-24T21:34:57.364+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 27992"}
+{"level":"debug","time":"2024-06-24T21:34:57.364+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 24185"}
+{"level":"debug","time":"2024-06-24T21:35:13.390+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525699","requestID":1}
+{"level":"debug","time":"2024-06-24T21:35:13.846+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://gos-api.gos-gsp.io:443","tunnelID":"1525699","requestID":2}
+{"level":"debug","time":"2024-06-24T21:35:15.036+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://app-measurement.com:443","tunnelID":"1525699","requestID":3}
+{"level":"debug","time":"2024-06-24T21:35:15.472+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://connectivitycheck.gstatic.com:443","tunnelID":"1525699","requestID":4}
+{"level":"debug","time":"2024-06-24T21:35:15.713+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525699","requestID":5}
+{"level":"debug","time":"2024-06-24T21:35:16.665+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://gos-api.gos-gsp.io:443","tunnelID":"1525699","requestID":6}
+{"level":"debug","time":"2024-06-24T21:35:16.666+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://app-measurement.com:443","tunnelID":"1525699","requestID":7}
+{"level":"debug","time":"2024-06-24T21:35:17.072+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.googleapis.com:443","tunnelID":"1525699","requestID":8}
+{"level":"debug","time":"2024-06-24T21:35:17.275+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525699","requestID":9}
+{"level":"debug","time":"2024-06-24T21:35:17.385+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://connectivitycheck.gstatic.com:443","tunnelID":"1525699","requestID":10}
+{"level":"debug","time":"2024-06-24T21:35:17.415+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525699","requestID":11}
+{"level":"debug","time":"2024-06-24T21:35:17.504+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://connectivitycheck.gstatic.com:443","tunnelID":"1525699","requestID":12}
+{"level":"debug","time":"2024-06-24T21:35:17.744+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://connectivitycheck.gstatic.com:443","tunnelID":"1525699","requestID":13}
+{"level":"debug","time":"2024-06-24T21:35:17.822+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://gos-api.gos-gsp.io:443","tunnelID":"1525699","requestID":14}
+{"level":"debug","time":"2024-06-24T21:35:17.850+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://gos-api.gos-gsp.io:443","tunnelID":"1525699","requestID":15}
+{"level":"debug","time":"2024-06-24T21:35:18.485+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525699","requestID":16}
+{"level":"debug","time":"2024-06-24T21:35:18.566+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://connectivitycheck.gstatic.com:443","tunnelID":"1525699","requestID":17}
+{"level":"debug","time":"2024-06-24T21:35:18.593+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://app-measurement.com:443","tunnelID":"1525699","requestID":18}
+{"level":"debug","time":"2024-06-24T21:35:18.593+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://infinitedata-pa.googleapis.com:443","tunnelID":"1525699","requestID":19}
+{"level":"debug","time":"2024-06-24T21:35:18.749+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525699","requestID":20}
+{"level":"debug","time":"2024-06-24T21:35:18.842+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://app-measurement.com:443","tunnelID":"1525699","requestID":21}
+{"level":"debug","time":"2024-06-24T21:35:18.927+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play-fe.googleapis.com:443","tunnelID":"1525699","requestID":22}
+{"level":"debug","time":"2024-06-24T21:35:18.976+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://gos-api.gos-gsp.io:443","tunnelID":"1525699","requestID":23}
+{"level":"debug","time":"2024-06-24T21:35:19.144+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://gos-api.gos-gsp.io:443","tunnelID":"1525699","requestID":24}
+{"level":"debug","time":"2024-06-24T21:35:19.902+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://app-measurement.com:443","tunnelID":"1525699","requestID":25}
+{"level":"debug","time":"2024-06-24T21:35:20.409+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525699","requestID":26}
+{"level":"debug","time":"2024-06-24T21:35:20.724+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.googleapis.com:443","tunnelID":"1525699","requestID":27}
+{"level":"debug","time":"2024-06-24T21:35:21.058+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.googleapis.com:443","tunnelID":"1525699","requestID":28}
+{"level":"debug","time":"2024-06-24T21:35:21.194+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://gos-api.gos-gsp.io:443","tunnelID":"1525699","requestID":29}
+{"level":"debug","time":"2024-06-24T21:35:22.234+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://connectivitycheck.gstatic.com:443","tunnelID":"1525699","requestID":30}
+{"level":"debug","time":"2024-06-24T21:35:22.409+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://gos-api.gos-gsp.io:443","tunnelID":"1525699","requestID":31}
+{"level":"debug","time":"2024-06-24T21:35:22.542+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://rr2---sn-oxu4vg0po-cvhe.gvt1.com:443","tunnelID":"1525699","requestID":32}
+{"level":"debug","time":"2024-06-24T21:35:22.544+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525699","requestID":33}
+{"level":"debug","time":"2024-06-24T21:35:22.686+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525699","requestID":34}
+{"level":"debug","time":"2024-06-24T21:35:23.566+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://connectivitycheck.gstatic.com:443","tunnelID":"1525699","requestID":35}
+{"level":"debug","time":"2024-06-24T21:35:23.664+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://connectivitycheck.gstatic.com:443","tunnelID":"1525699","requestID":36}
+{"level":"debug","time":"2024-06-24T21:35:23.664+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://gos-api.gos-gsp.io:443","tunnelID":"1525699","requestID":37}
+{"level":"debug","time":"2024-06-24T21:35:24.710+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://app-measurement.com:443","tunnelID":"1525699","requestID":38}
+{"level":"debug","time":"2024-06-24T21:35:24.754+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://connectivitycheck.gstatic.com:443","tunnelID":"1525699","requestID":39}
+{"level":"debug","time":"2024-06-24T21:35:26.828+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://gos-api.gos-gsp.io:443","tunnelID":"1525699","requestID":40}
+{"level":"debug","time":"2024-06-24T21:35:27.025+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525699","requestID":41}
+{"level":"debug","time":"2024-06-24T21:35:27.047+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://connectivitycheck.gstatic.com:443","tunnelID":"1525699","requestID":42}
+{"level":"debug","time":"2024-06-24T21:35:28.645+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525699","requestID":43}
+{"level":"debug","time":"2024-06-24T21:35:28.970+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://gos-api.gos-gsp.io:443","tunnelID":"1525699","requestID":44}
+{"level":"debug","time":"2024-06-24T21:35:31.703+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://connectivitycheck.gstatic.com:443","tunnelID":"1525699","requestID":45}
+{"level":"debug","time":"2024-06-24T21:35:31.876+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://dls.di.atlas.samsung.com:443","tunnelID":"1525699","requestID":46}
+{"level":"debug","time":"2024-06-24T21:35:31.917+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.googleapis.com:443","tunnelID":"1525699","requestID":47}
+{"level":"debug","time":"2024-06-24T21:35:32.892+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://gos-api.gos-gsp.io:443","tunnelID":"1525699","requestID":48}
+{"level":"debug","time":"2024-06-24T21:35:33.154+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://connectivitycheck.gstatic.com:443","tunnelID":"1525699","requestID":49}
+{"level":"debug","time":"2024-06-24T21:35:33.212+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525699","requestID":50}
+{"level":"debug","time":"2024-06-24T21:35:33.288+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525699","requestID":51}
+{"level":"debug","time":"2024-06-24T21:35:33.301+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.googleapis.com:443","tunnelID":"1525699","requestID":52}
+{"level":"debug","time":"2024-06-24T21:35:33.675+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://connectivitycheck.gstatic.com:443","tunnelID":"1525699","requestID":53}
+{"level":"debug","time":"2024-06-24T21:35:33.675+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://gos-api.gos-gsp.io:443","tunnelID":"1525699","requestID":54}
+{"level":"debug","time":"2024-06-24T21:35:34.541+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.googleapis.com:443","tunnelID":"1525699","requestID":55}
+{"level":"debug","time":"2024-06-24T21:35:34.733+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://gos-api.gos-gsp.io:443","tunnelID":"1525699","requestID":56}
+{"level":"debug","time":"2024-06-24T21:35:34.949+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525699","requestID":57}
+{"level":"debug","time":"2024-06-24T21:35:35.314+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://connectivitycheck.gstatic.com:443","tunnelID":"1525699","requestID":58}
+{"level":"debug","time":"2024-06-24T21:35:39.771+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525699","requestID":59}
+{"level":"debug","time":"2024-06-24T21:35:39.772+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://gos-api.gos-gsp.io:443","tunnelID":"1525699","requestID":60}
+{"level":"debug","time":"2024-06-24T21:35:40.879+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://connectivitycheck.gstatic.com:443","tunnelID":"1525699","requestID":61}
+{"level":"debug","time":"2024-06-24T21:35:40.914+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://gos-api.gos-gsp.io:443","tunnelID":"1525699","requestID":62}
+{"level":"debug","time":"2024-06-24T21:35:41.930+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525699","requestID":63}
+{"level":"debug","time":"2024-06-24T21:35:42.228+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://gos-api.gos-gsp.io:443","tunnelID":"1525699","requestID":64}
+{"level":"debug","time":"2024-06-24T21:35:42.383+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525699","requestID":65}
+{"level":"debug","time":"2024-06-24T21:35:42.507+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525699","requestID":66}
+{"level":"debug","time":"2024-06-24T21:35:43.474+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://connectivitycheck.gstatic.com:443","tunnelID":"1525699","requestID":67}
+{"level":"debug","time":"2024-06-24T21:35:48.558+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://gos-api.gos-gsp.io:443","tunnelID":"1525699","requestID":68}
+{"level":"debug","time":"2024-06-24T21:35:48.658+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://gos-api.gos-gsp.io:443","tunnelID":"1525699","requestID":69}
+{"level":"debug","time":"2024-06-24T21:35:48.764+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525699","requestID":70}
+{"level":"debug","time":"2024-06-24T21:35:48.771+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://connectivitycheck.gstatic.com:443","tunnelID":"1525699","requestID":71}
+{"level":"debug","time":"2024-06-24T21:35:48.772+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525699","requestID":72}
+{"level":"debug","time":"2024-06-24T21:35:48.909+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://connectivitycheck.gstatic.com:443","tunnelID":"1525699","requestID":73}
+{"level":"debug","time":"2024-06-24T21:35:50.379+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://gos-api.gos-gsp.io:443","tunnelID":"1525699","requestID":74}
+{"level":"debug","time":"2024-06-24T21:35:50.519+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525699","requestID":75}
+{"level":"debug","time":"2024-06-24T21:35:50.567+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://connectivitycheck.gstatic.com:443","tunnelID":"1525699","requestID":76}
+{"level":"debug","time":"2024-06-24T21:35:53.394+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525699","requestID":77}
+{"level":"debug","time":"2024-06-24T21:35:53.640+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://gos-api.gos-gsp.io:443","tunnelID":"1525699","requestID":78}
+{"level":"debug","time":"2024-06-24T21:35:53.852+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525699","requestID":79}
+{"level":"debug","time":"2024-06-24T21:35:53.856+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://gos-api.gos-gsp.io:443","tunnelID":"1525699","requestID":80}
+{"level":"debug","time":"2024-06-24T21:35:54.157+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.googleapis.com:443","tunnelID":"1525699","requestID":81}
+{"level":"debug","time":"2024-06-24T21:35:54.193+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://infinitedata-pa.googleapis.com:443","tunnelID":"1525699","requestID":82}
+{"level":"debug","time":"2024-06-24T21:35:55.411+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play-fe.googleapis.com:443","tunnelID":"1525699","requestID":83}
+{"level":"debug","time":"2024-06-24T21:35:55.418+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://connectivitycheck.gstatic.com:443","tunnelID":"1525699","requestID":84}
+{"level":"debug","time":"2024-06-24T21:35:55.453+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://connectivitycheck.gstatic.com:443","tunnelID":"1525699","requestID":85}
+{"level":"debug","time":"2024-06-24T21:35:57.297+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.googleapis.com:443","tunnelID":"1525699","requestID":86}
+{"level":"debug","time":"2024-06-24T21:35:57.460+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.googleapis.com:443","tunnelID":"1525699","requestID":87}
+{"level":"debug","time":"2024-06-24T21:35:58.407+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://gos-api.gos-gsp.io:443","tunnelID":"1525699","requestID":88}
+{"level":"debug","time":"2024-06-24T21:35:58.820+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://rr2---sn-oxu4vg0po-cvhe.gvt1.com:443","tunnelID":"1525699","requestID":89}
+{"level":"debug","time":"2024-06-24T21:35:59.571+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://rr2---sn-oxu4vg0po-cvhe.gvt1.com:443","tunnelID":"1525699","requestID":90}
+{"level":"debug","time":"2024-06-24T21:36:04.184+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://app-measurement.com:443","tunnelID":"1525699","requestID":91}
+{"level":"debug","time":"2024-06-24T21:36:06.324+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play-fe.googleapis.com:443","tunnelID":"1525699","requestID":92}
+{"level":"debug","time":"2024-06-24T21:36:06.485+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://gos-api.gos-gsp.io:443","tunnelID":"1525699","requestID":93}
+{"level":"debug","time":"2024-06-24T21:36:06.698+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://connectivitycheck.gstatic.com:443","tunnelID":"1525699","requestID":94}
+{"level":"debug","time":"2024-06-24T21:36:06.881+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525699","requestID":95}
+{"level":"debug","time":"2024-06-24T21:36:10.490+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.googleapis.com:443","tunnelID":"1525699","requestID":96}
+{"level":"debug","time":"2024-06-24T21:36:10.777+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.googleapis.com:443","tunnelID":"1525699","requestID":97}
+{"level":"debug","time":"2024-06-24T21:36:11.725+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://gos-api.gos-gsp.io:443","tunnelID":"1525699","requestID":98}
+{"level":"debug","time":"2024-06-24T21:36:11.903+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://connectivitycheck.gstatic.com:443","tunnelID":"1525699","requestID":99}
+{"level":"debug","time":"2024-06-24T21:36:11.924+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://infinitedata-pa.googleapis.com:443","tunnelID":"1525699","requestID":100}
+{"level":"debug","time":"2024-06-24T21:36:12.125+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525699","requestID":101}
+{"level":"debug","time":"2024-06-24T21:36:12.246+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play-fe.googleapis.com:443","tunnelID":"1525699","requestID":102}
+{"level":"debug","time":"2024-06-24T21:36:12.744+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://app-measurement.com:443","tunnelID":"1525699","requestID":103}
+{"level":"debug","time":"2024-06-24T21:36:25.667+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://dl.google.com:443","tunnelID":"1525699","requestID":104}
+{"level":"debug","time":"2024-06-24T21:36:25.795+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://dl.google.com:443","tunnelID":"1525699","requestID":105}
+{"level":"debug","time":"2024-06-24T21:36:26.132+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://connectivitycheck.gstatic.com:443","tunnelID":"1525699","requestID":106}
+{"level":"debug","time":"2024-06-24T21:36:26.999+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://gos-api.gos-gsp.io:443","tunnelID":"1525699","requestID":107}
+{"level":"debug","time":"2024-06-24T21:36:27.193+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525699","requestID":108}
+{"level":"debug","time":"2024-06-24T21:36:27.345+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://connectivitycheck.gstatic.com:443","tunnelID":"1525699","requestID":109}
+{"level":"debug","time":"2024-06-24T21:36:29.880+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://connectivitycheck.gstatic.com:443","tunnelID":"1525699","requestID":110}
+{"level":"debug","time":"2024-06-24T21:36:42.414+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://connectivitycheck.gstatic.com:443","tunnelID":"1525699","requestID":111}
+{"level":"debug","time":"2024-06-24T21:36:42.492+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525699","requestID":112}
+{"level":"debug","time":"2024-06-24T21:36:42.765+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://gos-api.gos-gsp.io:443","tunnelID":"1525699","requestID":113}
+{"level":"debug","time":"2024-06-24T21:36:44.998+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://gos-api.gos-gsp.io:443","tunnelID":"1525699","requestID":114}
+{"level":"debug","time":"2024-06-24T21:36:45.227+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://connectivitycheck.gstatic.com:443","tunnelID":"1525699","requestID":115}
+{"level":"debug","time":"2024-06-24T21:36:45.257+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://gos-api.gos-gsp.io:443","tunnelID":"1525699","requestID":116}
+{"level":"debug","time":"2024-06-24T21:36:45.324+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play-fe.googleapis.com:443","tunnelID":"1525699","requestID":117}
+{"level":"debug","time":"2024-06-24T21:36:45.350+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://connectivitycheck.gstatic.com:443","tunnelID":"1525699","requestID":118}
+{"level":"debug","time":"2024-06-24T21:36:45.448+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play-fe.googleapis.com:443","tunnelID":"1525699","requestID":119}
+{"level":"debug","time":"2024-06-24T21:36:45.533+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525699","requestID":120}
+{"level":"debug","time":"2024-06-24T21:36:45.677+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525699","requestID":121}
+{"level":"debug","time":"2024-06-24T21:36:53.744+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://connectivitycheck.gstatic.com:443","tunnelID":"1525699","requestID":122}
+{"level":"debug","time":"2024-06-24T21:36:53.835+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525699","requestID":123}
+{"level":"debug","time":"2024-06-24T21:36:54.258+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://gos-api.gos-gsp.io:443","tunnelID":"1525699","requestID":124}
+{"level":"debug","time":"2024-06-24T21:36:54.798+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525699","requestID":125}
+{"level":"debug","time":"2024-06-24T21:36:54.865+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://connectivitycheck.gstatic.com:443","tunnelID":"1525699","requestID":126}
+{"level":"debug","time":"2024-06-24T21:36:55.283+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://gos-api.gos-gsp.io:443","tunnelID":"1525699","requestID":127}
+{"level":"debug","time":"2024-06-24T21:36:56.415+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.googleapis.com:443","tunnelID":"1525699","requestID":128}
+{"level":"debug","time":"2024-06-24T21:36:56.525+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://eu-prod-klm.secb2b.com:443","tunnelID":"1525699","requestID":129}
+{"level":"debug","time":"2024-06-24T21:36:56.530+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.googleapis.com:443","tunnelID":"1525699","requestID":130}
+{"level":"debug","time":"2024-06-24T21:36:57.090+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://eu-prod-klm.secb2b.com:443","tunnelID":"1525699","requestID":131}
+{"level":"debug","time":"2024-06-24T21:36:57.438+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.googleapis.com:443","tunnelID":"1525699","requestID":132}
+{"level":"debug","time":"2024-06-24T21:36:57.969+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.googleapis.com:443","tunnelID":"1525699","requestID":133}
+{"level":"debug","time":"2024-06-24T21:36:57.981+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://app-measurement.com:443","tunnelID":"1525699","requestID":134}
+{"level":"debug","time":"2024-06-24T21:36:58.628+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.googleapis.com:443","tunnelID":"1525699","requestID":135}
+{"level":"debug","time":"2024-06-24T21:36:59.277+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525699","requestID":136}
+{"level":"debug","time":"2024-06-24T21:36:59.311+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://gos-api.gos-gsp.io:443","tunnelID":"1525699","requestID":137}
+{"level":"debug","time":"2024-06-24T21:37:01.106+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://connectivitycheck.gstatic.com:443","tunnelID":"1525699","requestID":138}
+{"level":"debug","time":"2024-06-24T21:37:01.135+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://gos-api.gos-gsp.io:443","tunnelID":"1525699","requestID":139}
+{"level":"debug","time":"2024-06-24T21:37:01.318+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://connectivitycheck.gstatic.com:443","tunnelID":"1525699","requestID":140}
+{"level":"debug","time":"2024-06-24T21:37:01.339+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525699","requestID":141}
+{"level":"debug","time":"2024-06-24T21:37:03.849+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play.google.com:443","tunnelID":"1525699","requestID":142}
+{"level":"debug","time":"2024-06-24T21:37:03.933+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://connectivitycheck.gstatic.com:443","tunnelID":"1525699","requestID":143}
+{"level":"debug","time":"2024-06-24T21:37:04.155+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play-fe.googleapis.com:443","tunnelID":"1525699","requestID":144}
+{"level":"debug","time":"2024-06-24T21:37:04.179+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://infinitedata-pa.googleapis.com:443","tunnelID":"1525699","requestID":145}
+{"level":"debug","time":"2024-06-24T21:37:04.283+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://infinitedata-pa.googleapis.com:443","tunnelID":"1525699","requestID":146}
+{"level":"debug","time":"2024-06-24T21:37:04.401+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://gos-api.gos-gsp.io:443","tunnelID":"1525699","requestID":147}
+{"level":"debug","time":"2024-06-24T21:37:08.829+0530","caller":"custom/setup.go:387","msg":"handle http request for http://connectivitycheck.gstatic.com/generate_204","tunnelID":"1525699","requestID":148}
+{"level":"debug","time":"2024-06-24T21:37:08.840+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://www.google.com:443","tunnelID":"1525699","requestID":149}
+{"level":"debug","time":"2024-06-24T21:37:08.846+0530","caller":"custom/setup.go:515","msg":"Response &{Status:204 No Content StatusCode:204 Proto:HTTP/1.1 ProtoMajor:1 ProtoMinor:1 Header:map[Content-Length:[0] Cross-Origin-Resource-Policy:[cross-origin] Date:[Mon, 24 Jun 2024 16:07:09 GMT]] Body:{} ContentLength:0 TransferEncoding:[] Close:true Uncompressed:false Trailer:map[] Request:0xc000ffd300 TLS:<nil>} for http request from domain http://connectivitycheck.gstatic.com/generate_204","tunnelID":"1525699","requestID":148}
+{"level":"debug","time":"2024-06-24T21:37:27.338+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://www.google.com:443","tunnelID":"1525699","requestID":150}
+{"level":"debug","time":"2024-06-24T21:37:27.579+0530","caller":"custom/setup.go:387","msg":"handle http request for http://connectivitycheck.gstatic.com/generate_204","tunnelID":"1525699","requestID":151}
+{"level":"debug","time":"2024-06-24T21:37:27.588+0530","caller":"custom/setup.go:515","msg":"Response &{Status:204 No Content StatusCode:204 Proto:HTTP/1.1 ProtoMajor:1 ProtoMinor:1 Header:map[Content-Length:[0] Cross-Origin-Resource-Policy:[cross-origin] Date:[Mon, 24 Jun 2024 16:07:27 GMT]] Body:{} ContentLength:0 TransferEncoding:[] Close:true Uncompressed:false Trailer:map[] Request:0xc0004c1b00 TLS:<nil>} for http request from domain http://connectivitycheck.gstatic.com/generate_204","tunnelID":"1525699","requestID":151}
+{"level":"debug","time":"2024-06-24T21:37:31.137+0530","caller":"custom/setup.go:387","msg":"handle http request for http://play.googleapis.com/generate_204","tunnelID":"1525699","requestID":152}
+{"level":"debug","time":"2024-06-24T21:37:31.155+0530","caller":"custom/setup.go:515","msg":"Response &{Status:204 No Content StatusCode:204 Proto:HTTP/1.1 ProtoMajor:1 ProtoMinor:1 Header:map[Content-Length:[0] Cross-Origin-Resource-Policy:[cross-origin] Date:[Mon, 24 Jun 2024 16:07:31 GMT]] Body:{} ContentLength:0 TransferEncoding:[] Close:true Uncompressed:false Trailer:map[] Request:0xc000c5f400 TLS:<nil>} for http request from domain http://play.googleapis.com/generate_204","tunnelID":"1525699","requestID":152}
+{"level":"debug","time":"2024-06-24T21:37:35.767+0530","caller":"custom/setup.go:387","msg":"handle http request for http://play.googleapis.com/generate_204","tunnelID":"1525699","requestID":153}
+{"level":"debug","time":"2024-06-24T21:37:35.787+0530","caller":"custom/setup.go:515","msg":"Response &{Status:204 No Content StatusCode:204 Proto:HTTP/1.1 ProtoMajor:1 ProtoMinor:1 Header:map[Content-Length:[0] Cross-Origin-Resource-Policy:[cross-origin] Date:[Mon, 24 Jun 2024 16:07:36 GMT]] Body:{} ContentLength:0 TransferEncoding:[] Close:true Uncompressed:false Trailer:map[] Request:0xc0004c1d00 TLS:<nil>} for http request from domain http://play.googleapis.com/generate_204","tunnelID":"1525699","requestID":153}
+{"level":"debug","time":"2024-06-24T21:37:40.447+0530","caller":"custom/setup.go:387","msg":"handle http request for http://connectivitycheck.gstatic.com/generate_204","tunnelID":"1525699","requestID":154}
+{"level":"debug","time":"2024-06-24T21:37:40.457+0530","caller":"custom/setup.go:515","msg":"Response &{Status:204 No Content StatusCode:204 Proto:HTTP/1.1 ProtoMajor:1 ProtoMinor:1 Header:map[Content-Length:[0] Cross-Origin-Resource-Policy:[cross-origin] Date:[Mon, 24 Jun 2024 16:07:40 GMT]] Body:{} ContentLength:0 TransferEncoding:[] Close:true Uncompressed:false Trailer:map[] Request:0xc000c5f600 TLS:<nil>} for http request from domain http://connectivitycheck.gstatic.com/generate_204","tunnelID":"1525699","requestID":154}
+{"level":"debug","time":"2024-06-24T21:37:43.702+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://www.google.com:443","tunnelID":"1525699","requestID":155}
+{"level":"debug","time":"2024-06-24T21:37:50.918+0530","caller":"core/lifecycle.go:438","msg":"Context cancelled"}
+{"level":"info","time":"2024-06-24T21:37:50.918+0530","caller":"core/lifecycle.go:440","msg":"Stopping tunnel"}
+{"level":"debug","time":"2024-06-24T21:37:50.918+0530","caller":"apiserver/setup.go:144","msg":"Shutting down the server"}
+{"level":"debug","time":"2024-06-24T21:37:50.918+0530","caller":"custom/setup.go:855","msg":"Exiting the sink proxy","tunnelID":"1525699"}
+{"level":"debug","time":"2024-06-24T21:37:50.918+0530","caller":"callback/setup.go:118","msg":"Shutting down the callback agent"}
+{"level":"debug","time":"2024-06-24T21:37:50.930+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"debug","time":"2024-06-24T21:37:50.930+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"debug","time":"2024-06-24T21:37:52.379+0530","caller":"ssh/ssh.go:222","msg":"Remote connection on remote port: 6474 closed, reason: EOF"}
+{"level":"debug","time":"2024-06-24T21:37:52.379+0530","caller":"ssh/ssh.go:244","msg":"closed ssh connection with port 6474"}
+{"level":"debug","time":"2024-06-24T21:37:52.390+0530","caller":"ssh/ssh.go:222","msg":"Remote connection on remote port: 8147 closed, reason: EOF"}
+{"level":"debug","time":"2024-06-24T21:37:52.390+0530","caller":"ssh/ssh.go:222","msg":"Remote connection on remote port: 24185 closed, reason: EOF"}
+{"level":"debug","time":"2024-06-24T21:37:52.390+0530","caller":"ssh/ssh.go:244","msg":"closed ssh connection with port 8147"}
+{"level":"debug","time":"2024-06-24T21:37:52.390+0530","caller":"ssh/ssh.go:244","msg":"closed ssh connection with port 24185"}
+{"level":"debug","time":"2024-06-24T21:37:52.390+0530","caller":"ssh/ssh.go:222","msg":"Remote connection on remote port: 27992 closed, reason: EOF"}
+{"level":"debug","time":"2024-06-24T21:37:52.390+0530","caller":"ssh/ssh.go:244","msg":"closed ssh connection with port 27992"}
+{"level":"debug","time":"2024-06-24T21:37:52.617+0530","caller":"ssh/ssh.go:222","msg":"Remote connection on remote port: 14157 closed, reason: EOF"}
+{"level":"debug","time":"2024-06-24T21:37:52.617+0530","caller":"ssh/ssh.go:244","msg":"closed ssh connection with port 14157"}
+{"level":"info","time":"2024-06-24T21:37:52.703+0530","caller":"core/lifecycle.go:447","msg":"Tunnel stopped successfully"}
+{"level":"debug","time":"2024-06-24T21:37:52.704+0530","caller":"core/lifecycle.go:449","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-06-24T21:37:52.704+0530","caller":"core/lifecycle.go:450","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2024-06-24T21:37:52.704+0530","caller":"core/lifecycle.go:452","msg":"All goroutines exited"}
+{"level":"debug","time":"2024-06-24T21:37:52.704+0530","caller":"cmd/lt.go:263","msg":"main: all goroutines have finished."}

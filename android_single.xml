@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Suite">
+  <test thread-count="1" parallel="classes" name="Test">
+    <parameter name="version" value="11" />
+    <parameter name="platform" value="Android" />
+    <parameter name="device" value="Pixel.*" />
+    <classes>
+      <class name="com.lambdaTestApp.android.AndroidApp"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

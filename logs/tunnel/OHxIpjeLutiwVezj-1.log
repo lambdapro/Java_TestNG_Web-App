@@ -1,0 +1,10 @@
+{"level":"info","time":"2024-06-24T21:44:16.294+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.1.31"}
+{"level":"debug","time":"2024-06-24T21:44:16.297+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2024-06-24T21:44:16.297+0530","caller":"core/lifecycle.go:42","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2024-06-24T21:44:16.297+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2024-06-24T21:44:16.297+0530","caller":"core/lifecycle.go:65","msg":"Starting tunnel With flags: --user mudassars --key ***** --hypCallbackURL http://127.0.0.1:63857/started --env ht-prod --tunnelName OHxIpjeLutiwVezj --retry-on-failure --verbose --infoAPIPort 63858 --logFile D:\\demo\\LambdaTest_Demo-main\\logs\\tunnel\\OHxIpjeLutiwVezj-1.log"}
+{"level":"debug","time":"2024-06-24T21:44:16.468+0530","caller":"cmd/lt.go:271","msg":"main: received interrupt signal - attempting graceful shutdown ...."}
+{"level":"debug","time":"2024-06-24T21:44:16.468+0530","caller":"cmd/lt.go:273","msg":"main: telling goroutines to stop"}
+{"level":"error","time":"2024-06-24T21:44:16.468+0530","caller":"core/lifecycle.go:73","msg":"Unable to fetch remote config Get \"https://hts.lambdatest.com/v1.0/tunnel/config\": context canceled"}
+{"level":"debug","time":"2024-06-24T21:44:16.468+0530","caller":"cmd/lt.go:263","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2024-06-24T21:44:16.468+0530","caller":"cmd/lt.go:277","msg":"Go routines exited within timeout"}

@@ -1,39 +1,28 @@
----
-jobLabel: [critical, android, sanity]
-
-version: 0.2
+version: "0.2"
 concurrency: 10
-runson: linux
-appium: true
-region: us
-
+runson: android
+autosplit: true
+autoAcceptAlerts: true
 tunnel: true
 tunnelOpts:
-  global: true
-#if the application is public then set preOnly: true so that tunnel will be used only to install dependencies
-
-preDirectives:
-  commands:
-    - mvn -Dmaven.repo.local=./.m2 dependency:resolve -DproxyHost=${LT_PROXY_HOST} -DproxyPort=${LT_PROXY_PORT}
-
-env:
-  # PAT: ${{ .secrets.testKey }}
-  CACHE_DIR: m2_cache_dir
-  LT_USERNAME: ${LT_USERNAME}
-  LT_ACCESS_KEY: ${LT_ACCESS_KEY}
-
-cacheKey: '{{ checksum "pom.xml" }}'
-cacheDirectories:
-  - .m2
+  args: [--verbose]
+globalHttpProxy: true
 
 framework:
-  name: "maven/testng"
-  discoveryFlags: ["-Dsuite=android_parallel.xml"]
-  discoveryType: xmltest # discoveryType can be class,method and xmltest
-  runnerFlags: ["-Dsuite=android_parallel.xml" , "-Dmaven.repo.local=./.m2"]
-
-uploadArtefacts:
-  # Will upload your reports from target/site/** to HyperExecute as FinalReport
-  - name: FinalReport
-    path:
-      - target/**
+  name: "android/espresso"
+  args:
+    globalHttpProxy: true
+    buildName: "Regression_Consumer"
+    video: true
+    deviceLog: true
+    queuetimeout: 10800
+    autoGrantPermissions: true
+    appId: lt://APP10160352241719244951353324
+    testSuiteAppId: lt://APP1016016161719245001598634
+    deviceSelectionStrategy: any
+    disableAnimation :  true
+    devices: ["Galaxy S21 5G-11"]
+    filters:
+      attributes:
+        - type: annotation
+          values: ["com.aligntech.myinvisalign.test.testSuites.ConsumerRegression"]

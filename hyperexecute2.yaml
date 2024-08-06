@@ -2,26 +2,18 @@ version: "0.2"
 concurrency: 10
 runson: android
 autosplit: true
-autoAcceptAlerts: true
-tunnel: true
-tunnelOpts:
-  args: [--verbose]
-globalHttpProxy: true
-
 framework:
-  name: "android/espresso"
+  name:
+    "android/espresso"
   args:
-    globalHttpProxy: true
-    buildName: "Regression_Consumer"
+    buildName: "test_align_new"
     video: true
     deviceLog: true
     queuetimeout: 10800
-    autoGrantPermissions: true
-    appId:  lt://APP1016016161719212849412683
-    testSuiteAppId: lt://APP10160352241719212964502937
+    appId: lt://APP1016016161719246282639401
+    testSuiteAppId: lt://APP1016016161719258424877984
     deviceSelectionStrategy: any
-    disableAnimation :  true
-    devices: ["Galaxy S21 5G-11"]
+    devices: ["Galaxy.*"]
     filters:
       attributes:
         - type: annotation

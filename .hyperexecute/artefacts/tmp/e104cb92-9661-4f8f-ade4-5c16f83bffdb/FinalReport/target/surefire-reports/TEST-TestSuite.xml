@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1.542" tests="9" errors="0" skipped="6" failures="3">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.11+9"/>
+    <property name="sun.boot.library.path" value="/tmp/Java_Adopt_jdk/17.0.11-9/x64/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/ltuser/foreman/LambdaTest_Demo-main"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/ltuser/foreman/LambdaTest_Demo-main"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="mode" value="execute"/>
+    <property name="java.runtime.version" value="17.0.11+9"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/apache-maven-3.8.4/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="ANSI_X3.4-1968"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/usr/share/apache-maven-3.8.4/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="suite" value="parallel.xml"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="maven.repo.local" value="./.m2"/>
+    <property name="ngTests" value="Test"/>
+    <property name="os.version" value="4.15.0-213-generic"/>
+    <property name="library.jansi.path" value="/usr/share/apache-maven-3.8.4/lib/jansi-native"/>
+    <property name="user.home" value="/home/ltuser"/>
+    <property name="user.timezone" value="Etc/UTC"/>
+    <property name="file.encoding" value="ANSI_X3.4-1968"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="ltuser"/>
+    <property name="java.class.path" value="/usr/share/apache-maven-3.8.4/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dframework=testng -DdiscoveryType=xmltest -Dsuite=parallel.xml -Dmaven.repo.local=./.m2 -Dmode=execute -DngTests=Test"/>
+    <property name="java.home" value="/tmp/Java_Adopt_jdk/17.0.11-9/x64"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.11"/>
+    <property name="native.encoding" value="ANSI_X3.4-1968"/>
+    <property name="discoveryType" value="xmltest"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="maven.home" value="/usr/share/apache-maven-3.8.4"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="framework" value="testng"/>
+    <property name="java.vendor.version" value="Temurin-17.0.11+9"/>
+  </properties>
+  <testcase name="setup" classname="com.lambdatest.TestNGTodo2" time="0.815">
+    <failure message="platform name is missing in the capabilities (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 283 milliseconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;6826660f23a6&apos;, ip: &apos;10.64.109.50&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-213-generic&apos;, java.version: &apos;17.0.11&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+platform name is missing in the capabilities (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 283 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '6826660f23a6', ip: '10.64.109.50', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-213-generic', java.version: '17.0.11'
+Driver info: driver.version: RemoteWebDriver
+	at com.lambdatest.TestNGTodo2.setup(TestNGTodo2.java:46)
+</failure>
+    <system-out><![CDATA[Configuring TestNG with: TestNG60Configurator
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="basicTest" classname="com.lambdatest.TestNGTodo2" time="0">
+    <skipped message="platform name is missing in the capabilities (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 283 milliseconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;6826660f23a6&apos;, ip: &apos;10.64.109.50&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-213-generic&apos;, java.version: &apos;17.0.11&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="tearDown" classname="com.lambdatest.TestNGTodo2" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setup" classname="com.lambdatest.TestNGTodo1" time="1.01">
+    <failure message="platform name is missing in the capabilities (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 496 milliseconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;6826660f23a6&apos;, ip: &apos;10.64.109.50&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-213-generic&apos;, java.version: &apos;17.0.11&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+platform name is missing in the capabilities (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 496 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '6826660f23a6', ip: '10.64.109.50', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-213-generic', java.version: '17.0.11'
+Driver info: driver.version: RemoteWebDriver
+	at com.lambdatest.TestNGTodo1.setup(TestNGTodo1.java:47)
+</failure>
+  </testcase>
+  <testcase name="basicTest" classname="com.lambdatest.TestNGTodo1" time="0">
+    <skipped message="platform name is missing in the capabilities (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 496 milliseconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;6826660f23a6&apos;, ip: &apos;10.64.109.50&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-213-generic&apos;, java.version: &apos;17.0.11&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="tearDown" classname="com.lambdatest.TestNGTodo1" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setup" classname="com.lambdatest.TestNGTodo3" time="1.012">
+    <failure message="platform name is missing in the capabilities (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 500 milliseconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;6826660f23a6&apos;, ip: &apos;10.64.109.50&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-213-generic&apos;, java.version: &apos;17.0.11&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+platform name is missing in the capabilities (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 500 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '6826660f23a6', ip: '10.64.109.50', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-213-generic', java.version: '17.0.11'
+Driver info: driver.version: RemoteWebDriver
+	at com.lambdatest.TestNGTodo3.setup(TestNGTodo3.java:46)
+</failure>
+  </testcase>
+  <testcase name="basicTest" classname="com.lambdatest.TestNGTodo3" time="0">
+    <skipped message="platform name is missing in the capabilities (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 500 milliseconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;6826660f23a6&apos;, ip: &apos;10.64.109.50&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-213-generic&apos;, java.version: &apos;17.0.11&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="tearDown" classname="com.lambdatest.TestNGTodo3" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

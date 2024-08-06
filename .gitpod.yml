@@ -1,0 +1,13 @@
+# List the ports you want to expose and what to do when they are served. See https://www.gitpod.io/docs/config-ports/
+ports:
+  - port: 3000
+    onOpen: open-preview
+
+# List the start up tasks. You can start them in parallel in multiple terminals. See https://www.gitpod.io/docs/config-start-tasks/
+tasks:
+  - before: npm install
+    init: mvn install
+    command: npm install
+  - name: Results
+    init: npm test
+    command: node /workspace/LambdaTest_Demo/node_modules/@lambdatest/node-fetch-sessions/index.js

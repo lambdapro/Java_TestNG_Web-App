@@ -1,0 +1,52 @@
+---
+version: 0.2
+globalTimeout: 150
+testSuiteTimeout: 150
+testSuiteStep: 150
+
+runson: win
+
+autosplit: true
+retryOnFailure: true
+
+maxRetries: 3
+concurrency: 4
+
+env:
+  # PAT: ${{ .secrets.testKey }}
+  CACHE_DIR: m2_cache_dir
+  LT_USERNAME: ${LT_USERNAME}
+  LT_ACCESS_KEY: ${LT_ACCESS_KEY}
+
+cacheKey: '{{ checksum "pom.xml" }}'
+cacheDirectories:
+  - .m2
+
+pre:
+  # Skip execution of the tests in the pre step
+  - mvn -Dmaven.repo.local=./.m2 dependency:resolve
+
+post:
+  - ls target/surefire-reports/
+
+mergeArtifacts: true
+
+
+uploadArtefacts:
+  - name: ExecutionSnapshots
+    path:
+      - target/surefire-reports/html/**
+
+report: true
+partialReports:
+  location: target/surefire-reports/html
+  type: html
+  frameworkName: extent
+
+framework:
+  name: maven/testng
+  defaultReports: false
+  flags:
+    - "-Dsuite=parallel.xml"
+
+jobLabel: [selenium-testng, win, autosplit]

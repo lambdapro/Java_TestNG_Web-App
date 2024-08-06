@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="1" parallel="classes" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="com.lambdatest.TestNGTodo2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="basicTest"/>
+        </methods>
+      </class> <!-- com.lambdatest.TestNGTodo2 -->
+      <class name="com.lambdatest.TestNGTodo3">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="basicTest"/>
+        </methods>
+      </class> <!-- com.lambdatest.TestNGTodo3 -->
+      <class name="com.lambdatest.TestNGTodo1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="basicTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.lambdatest.TestNGTodo1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

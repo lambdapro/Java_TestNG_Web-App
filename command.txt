@@ -1,0 +1,1 @@
+ ./hyperexecute --config testng_hyperexecute_autosplit_sample.yaml --download-artifacts --force-clean-artifacts -v --vars "LT_USERNAME=mudassars" --vars "LT_ACCESS_KEY=LoyMEMP9NWiHaeCpfBaGfu7c3hrjYfiksHEe6lSb3zJtqSGp3Z"

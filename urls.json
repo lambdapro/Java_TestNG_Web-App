@@ -1,0 +1,7 @@
+[
+  {
+    "name": "lambdatest-home-page",
+    "url": "cvs.com/minuteclinic",
+    "waitForTimeout": 1000
+  }
+]

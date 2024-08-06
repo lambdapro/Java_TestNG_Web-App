@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 3, Errors: 0, Skipped: 6, Time elapsed: 1.584 sec <<< FAILURE! - in TestSuite
+setup(com.lambdatest.TestNGTodo3)  Time elapsed: 1.148 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+platform name is missing in the capabilities (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 552 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '9158fabbe3ab', ip: '10.64.109.19', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-213-generic', java.version: '1.8.0_322'
+Driver info: driver.version: RemoteWebDriver
+	at com.lambdatest.TestNGTodo3.setup(TestNGTodo3.java:46)
+
+setup(com.lambdatest.TestNGTodo1)  Time elapsed: 1.149 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+platform name is missing in the capabilities (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 553 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '9158fabbe3ab', ip: '10.64.109.19', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-213-generic', java.version: '1.8.0_322'
+Driver info: driver.version: RemoteWebDriver
+	at com.lambdatest.TestNGTodo1.setup(TestNGTodo1.java:47)
+
+setup(com.lambdatest.TestNGTodo2)  Time elapsed: 1.149 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+platform name is missing in the capabilities (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 556 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '9158fabbe3ab', ip: '10.64.109.19', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-213-generic', java.version: '1.8.0_322'
+Driver info: driver.version: RemoteWebDriver
+	at com.lambdatest.TestNGTodo2.setup(TestNGTodo2.java:46)
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="100" name="Mobile" parallel="tests">
+
+
+  <test name="iOSApp 1">
+    <parameter name="version" value="14" />
+    <parameter name="platform" value="iOS" />
+    <parameter name="device" value="iPhone.*" />
+    <classes>
+      <class name="com.lambdaTestApp.iOS.IOSApp" />
+    </classes>
+  </test>
+</suite>

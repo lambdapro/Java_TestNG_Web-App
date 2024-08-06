@@ -1,0 +1,11 @@
+#/target/
+/bin/
+.project
+.settings
+.theia
+.DS_Store
+node_modules/
+package-lock.json
+log/
+cypress/screenshots/
+cypress/videos/

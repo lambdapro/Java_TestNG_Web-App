@@ -1,0 +1,68 @@
+{
+    "id": "ddb8bfb0-279f-4001-a7ce-f81311675395",
+    "created_at": "2024-07-23T18:27:46Z",
+    "update_at": "2024-07-23T18:35:06Z",
+    "global_timeout": 150,
+    "tunnel_name": "",
+    "start_time": "2024-07-23T18:30:21Z",
+    "end_time": "2024-07-23T18:35:06Z",
+    "summary": {
+        "total_time": 285000000000,
+        "execution_time": 285000000000,
+        "total_tasks": 2,
+        "build_time_consumed": 421000000000,
+        "jobTestExecutionTime": "2m13s",
+        "failed_tasks": 0,
+        "total_stage_info": {
+            "scenario": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 1
+            }
+        },
+        "status": "completed",
+        "job_link": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=ddb8bfb0-279f-4001-a7ce-f81311675395"
+    },
+    "tasks": [
+        {
+            "id": "0003101e-2dfd-416d-bf36-db8985f52636",
+            "os": "linux",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2024-07-23T18:28:18Z",
+            "update_at": "2024-07-23T18:35:06Z",
+            "start_time": "2024-07-23T18:30:21Z",
+            "end_time": "2024-07-23T18:35:06Z",
+            "group_number": 1,
+            "stages": [
+                {
+                    "id": "793aad5f-5b7f-4975-8c9e-ec7f64c7bc6b",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "JMeter - ./test.jmx",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2024-07-23T18:30:26Z",
+                    "started_at": "2024-07-23T18:32:53Z",
+                    "updated_at": "2024-07-23T18:35:06.478328263Z",
+                    "order": 1,
+                    "task_number": 1
+                }
+            ]
+        },
+        {
+            "id": "e85ead93-1e87-47fd-a8af-c2c0b1013746",
+            "os": "linux",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2024-07-23T18:28:18Z",
+            "update_at": "2024-07-23T18:35:06Z",
+            "start_time": "2024-07-23T18:32:50Z",
+            "end_time": "2024-07-23T18:35:06Z",
+            "group_number": 2,
+            "stages": null
+        }
+    ]
+}

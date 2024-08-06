@@ -1,0 +1,73 @@
+---
+version: 0.1
+globalTimeout: 150
+testSuiteTimeout: 150
+
+runson: linux
+
+autosplit: true
+retryOnFailure: false
+
+maxRetries: 1
+concurrency: 4
+
+scenarioCommandStatusOnly: true
+
+shell: bash
+
+performance:
+  type: jmeter
+  jmeter:
+    # - region: eastus
+    #   users: 150
+    #   duration: 180
+    #   # iterations: 2
+    #   rampup: 5
+    #   url: "https://the-internet.herokuapp.com/"
+
+    # - region: eastus
+    #   users: 100
+    #   duration: 180
+    #   # iterations: 2
+    #   rampup: 5
+    #   url: "https://the-internet.herokuapp.com/"
+
+    - region: "eastus"
+      users: 100
+      rampup: 60
+      duration: 120
+      jmx: "./test.jmx"
+    
+    - region: "westus"
+      users: 100
+      rampup: 60
+      duration: 120
+      jmx: "./test.jmx"
+
+    # - region: eastus2
+    #   users: 5002
+    #   duration: 600
+    #   rampup: 5
+    #   url: "https://the-internet.herokuapp.com/"
+
+    # - region: eastus2
+    #   users: 4998
+    #   duration: 600
+    #   rampup: 5
+    #   url: "https://the-internet.herokuapp.com/"
+
+report: true
+partialReports:
+  type: html
+  location: ./
+  frameworkName: jmeter
+
+jobLabel:
+    - sp-test
+
+project:
+  name: SP - sample JMeter project
+  # name: AG - sample JMeter project 1
+
+differentialUpload:
+  enabled: true

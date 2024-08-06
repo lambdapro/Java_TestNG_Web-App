@@ -1,0 +1,86 @@
+{
+  "data": {
+    "suites": [
+      {
+        "title": "E2E Tests - Login",
+        "tests": [
+          {
+            "title": "I navigate to the login page",
+            "fullTitle": "E2E Tests - Login I navigate to the login page",
+            "timedOut": null,
+            "duration": 1442,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "context": null,
+            "code": "cy.visit('https://the-internet.herokuapp.com/login');\ncy.get('h2').should('contain', 'Login Page');",
+            "err": {},
+            "uuid": "4d4f9dcf-50ac-4839-a347-b6e4d2370a1f",
+            "parentUUID": "d295d56e-f349-407e-b023-910caed67a37",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "I submit invalid login credentials",
+            "fullTitle": "E2E Tests - Login I submit invalid login credentials",
+            "timedOut": null,
+            "duration": 2366,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "context": null,
+            "code": "cy.get('#username').type('invalid_usr');\ncy.get('#password').type('invalid_pass');\ncy.get('button[type=\"submit\"]').click();\ncy.get('.flash.error').should('be.visible');\ncy.screenshot({\n  capture: 'fullPage'\n});",
+            "err": {},
+            "uuid": "5e742de4-1619-4c42-8032-f37d9c638e18",
+            "parentUUID": "d295d56e-f349-407e-b023-910caed67a37",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "I submit valid login credentials",
+            "fullTitle": "E2E Tests - Login I submit valid login credentials",
+            "timedOut": null,
+            "duration": 2717,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "context": null,
+            "code": "cy.get('#username').type('tomsmith');\ncy.get('#password').type('SuperSecretPassword!');\ncy.get('button[type=\"submit\"]').click();\ncy.get('.flash.success').should('be.visible');\ncy.screenshot({\n  capture: 'fullPage'\n});",
+            "err": {},
+            "uuid": "11f16fd6-fc84-45e4-b615-e840d1a55462",
+            "parentUUID": "d295d56e-f349-407e-b023-910caed67a37",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "I logout from the app",
+            "fullTitle": "E2E Tests - Login I logout from the app",
+            "timedOut": null,
+            "duration": 725,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "context": null,
+            "code": "cy.get('.button.secondary.radius').click();\ncy.get('h2').should('contain', 'Login Page');\ncy.screenshot({\n  capture: 'fullPage'\n});",
+            "err": {},
+            "uuid": "a2585cd6-dd66-4094-b354-a68ec8621cbd",
+            "parentUUID": "d295d56e-f349-407e-b023-910caed67a37",
+            "isHook": false,
+            "skipped": false
+          }
+        ]
+      }
+    ],
+    "spec": "cypress/integration/examples/login.spec.js"
+  },
+  "status": "success",
+  "message": "Retrieve logs list was successful"
+}

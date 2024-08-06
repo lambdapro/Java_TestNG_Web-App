@@ -1,0 +1,95 @@
+{"level":"info","time":"2024-07-10T22:59:46.587+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.1.31"}
+{"level":"debug","time":"2024-07-10T22:59:46.588+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2024-07-10T22:59:46.589+0530","caller":"core/lifecycle.go:42","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2024-07-10T22:59:46.589+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2024-07-10T22:59:46.589+0530","caller":"core/lifecycle.go:65","msg":"Starting tunnel With flags: --user mudassars --key ***** --hypCallbackURL http://127.0.0.1:49296/started --env ht-prod --tunnelName DmRPtrRwxKHwNJOT --retry-on-failure --infoAPIPort 49297 --logFile D:\\demo\\LambdaTest_Demo-main\\logs\\tunnel\\DmRPtrRwxKHwNJOT-1.log"}
+{"level":"debug","time":"2024-07-10T22:59:48.458+0530","caller":"core/lifecycle.go:83","msg":"Remote config fetched"}
+{"level":"debug","time":"2024-07-10T22:59:48.552+0530","caller":"apiserver/setup.go:166","msg":"Starting API server"}
+{"level":"debug","time":"2024-07-10T22:59:48.552+0530","caller":"custom/setup.go:882","msg":"Starting sink proxy"}
+{"level":"debug","time":"2024-07-10T22:59:48.553+0530","caller":"networkscanner/setup.go:137","msg":"Trying over ssh over ws"}
+{"level":"debug","time":"2024-07-10T22:59:48.553+0530","caller":"networkscanner/setup.go:69","msg":"Trying on port 22"}
+{"level":"debug","time":"2024-07-10T22:59:48.553+0530","caller":"apiserver/setup.go:148","msg":"Starting API server for tunnel info on port: 49297"}
+{"level":"debug","time":"2024-07-10T22:59:48.553+0530","caller":"networkscanner/setup.go:191","msg":"Trying on port 443"}
+{"level":"debug","time":"2024-07-10T22:59:48.553+0530","caller":"networkscanner/setup.go:103","msg":"Trying on port 443"}
+{"level":"debug","time":"2024-07-10T22:59:48.553+0530","caller":"callback/setup.go:54","msg":"Starting the callback agent"}
+{"level":"info","time":"2024-07-10T22:59:48.556+0530","caller":"custom/setup.go:825","msg":"Tunnel binary started on port :9090"}
+{"level":"debug","time":"2024-07-10T22:59:48.583+0530","caller":"networkscanner/setup.go:207","msg":"TCP connection was successful"}
+{"level":"debug","time":"2024-07-10T22:59:48.647+0530","caller":"networkscanner/setup.go:154","msg":"WSS connection was successful"}
+{"level":"debug","time":"2024-07-10T22:59:49.058+0530","caller":"networkscanner/setup.go:124","msg":"SSH connection over port 443 successful"}
+{"level":"debug","time":"2024-07-10T22:59:49.112+0530","caller":"networkscanner/setup.go:179","msg":"SSH connection over ws successful"}
+{"level":"debug","time":"2024-07-10T22:59:49.180+0530","caller":"networkscanner/setup.go:90","msg":"SSH connection over port 22 successful"}
+{"level":"info","time":"2024-07-10T22:59:49.180+0530","caller":"core/lifecycle.go:122","msg":"Using ssh(over_22) :: connection mode"}
+{"level":"info","time":"2024-07-10T22:59:49.180+0530","caller":"core/lifecycle.go:272","msg":"Launching tunnel"}
+{"level":"debug","time":"2024-07-10T22:59:49.180+0530","caller":"ws/control.go:34","msg":"Starting control ws connection at wss://hts.lambdatest.com/monitor"}
+{"level":"debug","time":"2024-07-10T22:59:49.626+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2024-07-10T22:59:49.626+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2024-07-10T22:59:51.789+0530","caller":"tunnelmanager/controller.go:149","msg":"otel disabled"}
+{"level":"debug","time":"2024-07-10T22:59:51.789+0530","caller":"core/lifecycle.go:371","msg":"Sending tunnel registered message to channels"}
+{"level":"debug","time":"2024-07-10T22:59:51.789+0530","caller":"ws/control.go:196","msg":"Tunnel registered message received on control channel"}
+{"level":"debug","time":"2024-07-10T22:59:51.789+0530","caller":"ws/control.go:200","msg":"controller bus registered"}
+{"level":"debug","time":"2024-07-10T22:59:51.789+0530","caller":"ssh/setup.go:71","msg":"Using 5 ssh connection"}
+{"level":"debug","time":"2024-07-10T22:59:52.502+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 20343"}
+{"level":"debug","time":"2024-07-10T22:59:52.547+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 24371"}
+{"level":"info","time":"2024-07-10T22:59:52.547+0530","caller":"core/lifecycle.go:394","msg":"You can start testing now"}
+{"level":"debug","time":"2024-07-10T22:59:52.547+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 17094"}
+{"level":"info","time":"2024-07-10T22:59:52.547+0530","caller":"core/lifecycle.go:395","msg":"Tunnel ID: 1546345"}
+{"level":"debug","time":"2024-07-10T22:59:52.547+0530","caller":"core/lifecycle.go:396","msg":"Remote Listener Started on Port 17829"}
+{"level":"debug","time":"2024-07-10T22:59:52.549+0530","caller":"callback/setup.go:103","msg":"Webhook endpoint http://127.0.0.1:49296/started successfully notified"}
+{"level":"debug","time":"2024-07-10T22:59:52.579+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 18093"}
+{"level":"debug","time":"2024-07-10T22:59:52.608+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 8582"}
+{"level":"debug","time":"2024-07-10T23:02:36.736+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://www.google.com:443","tunnelID":"1546345","requestID":1}
+{"level":"debug","time":"2024-07-10T23:02:36.799+0530","caller":"custom/setup.go:387","msg":"handle http request for http://connectivitycheck.gstatic.com/generate_204","tunnelID":"1546345","requestID":2}
+{"level":"debug","time":"2024-07-10T23:02:36.812+0530","caller":"custom/setup.go:515","msg":"Response &{Status:204 No Content StatusCode:204 Proto:HTTP/1.1 ProtoMajor:1 ProtoMinor:1 Header:map[Content-Length:[0] Cross-Origin-Resource-Policy:[cross-origin] Date:[Wed, 10 Jul 2024 17:32:36 GMT]] Body:{} ContentLength:0 TransferEncoding:[] Close:true Uncompressed:false Trailer:map[] Request:0xc000184000 TLS:<nil>} for http request from domain http://connectivitycheck.gstatic.com/generate_204","tunnelID":"1546345","requestID":2}
+{"level":"debug","time":"2024-07-10T23:02:37.716+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play-fe.googleapis.com:443","tunnelID":"1546345","requestID":3}
+{"level":"debug","time":"2024-07-10T23:02:37.783+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://play-fe.googleapis.com:443","tunnelID":"1546345","requestID":4}
+{"level":"debug","time":"2024-07-10T23:02:37.849+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://playstoregatewayadapter-pa.googleapis.com:443","tunnelID":"1546345","requestID":5}
+{"level":"debug","time":"2024-07-10T23:02:38.867+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://www.googleapis.com:443","tunnelID":"1546345","requestID":6}
+{"level":"debug","time":"2024-07-10T23:02:39.720+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://connectivitycheck.gstatic.com:443","tunnelID":"1546345","requestID":7}
+{"level":"debug","time":"2024-07-10T23:02:40.747+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://gmscompliance-pa.googleapis.com:443","tunnelID":"1546345","requestID":8}
+{"level":"debug","time":"2024-07-10T23:02:45.418+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://accounts.google.com:443","tunnelID":"1546345","requestID":9}
+{"level":"debug","time":"2024-07-10T23:02:45.641+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://accounts.google.com:443","tunnelID":"1546345","requestID":10}
+{"level":"debug","time":"2024-07-10T23:02:47.473+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://lambdatest.github.io:443","tunnelID":"1546345","requestID":11}
+{"level":"debug","time":"2024-07-10T23:02:47.483+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://lambdatest.github.io:443","tunnelID":"1546345","requestID":12}
+{"level":"debug","time":"2024-07-10T23:02:47.889+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://lambdatest.github.io:443","tunnelID":"1546345","requestID":13}
+{"level":"debug","time":"2024-07-10T23:02:48.684+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://region1.app-measurement.com:443","tunnelID":"1546345","requestID":14}
+{"level":"debug","time":"2024-07-10T23:02:49.148+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://android-safebrowsing.google.com:443","tunnelID":"1546345","requestID":15}
+{"level":"debug","time":"2024-07-10T23:02:49.156+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://ajax.googleapis.com:443","tunnelID":"1546345","requestID":16}
+{"level":"debug","time":"2024-07-10T23:02:49.207+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://maxcdn.bootstrapcdn.com:443","tunnelID":"1546345","requestID":17}
+{"level":"debug","time":"2024-07-10T23:02:49.560+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://ajax.googleapis.com:443","tunnelID":"1546345","requestID":18}
+{"level":"debug","time":"2024-07-10T23:02:49.636+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://maxcdn.bootstrapcdn.com:443","tunnelID":"1546345","requestID":19}
+{"level":"debug","time":"2024-07-10T23:02:50.688+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://www.gstatic.com:443","tunnelID":"1546345","requestID":20}
+{"level":"debug","time":"2024-07-10T23:02:50.692+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://www.gstatic.com:443","tunnelID":"1546345","requestID":21}
+{"level":"debug","time":"2024-07-10T23:02:50.695+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://www.gstatic.com:443","tunnelID":"1546345","requestID":22}
+{"level":"debug","time":"2024-07-10T23:02:50.731+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://www.gstatic.com:443","tunnelID":"1546345","requestID":23}
+{"level":"debug","time":"2024-07-10T23:02:51.190+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://app-measurement.com:443","tunnelID":"1546345","requestID":24}
+{"level":"debug","time":"2024-07-10T23:02:51.213+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://clients1.google.com:443","tunnelID":"1546345","requestID":25}
+{"level":"debug","time":"2024-07-10T23:02:51.588+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://clients1.google.com:443","tunnelID":"1546345","requestID":26}
+{"level":"debug","time":"2024-07-10T23:02:52.317+0530","caller":"custom/setup.go:387","msg":"handle http request for http://wnmdzjxavu/","tunnelID":"1546345","requestID":27}
+{"level":"debug","time":"2024-07-10T23:02:52.317+0530","caller":"custom/setup.go:387","msg":"handle http request for http://nzzsivu/","tunnelID":"1546345","requestID":28}
+{"level":"debug","time":"2024-07-10T23:02:52.377+0530","caller":"custom/setup.go:387","msg":"handle http request for http://grvfosswzi/","tunnelID":"1546345","requestID":29}
+{"level":"debug","time":"2024-07-10T23:02:54.342+0530","caller":"custom/setup.go:552","msg":"handling connect request for URL https://android.apis.google.com:443","tunnelID":"1546345","requestID":30}
+{"level":"error","time":"2024-07-10T23:02:55.009+0530","caller":"custom/setup.go:509","msg":"Error Response dial tcp: lookup wnmdzjxavu: no such host for http request from host wnmdzjxavu","tunnelID":"1546345","requestID":27}
+{"level":"error","time":"2024-07-10T23:02:55.009+0530","caller":"custom/setup.go:509","msg":"Error Response dial tcp: lookup nzzsivu: no such host for http request from host nzzsivu","tunnelID":"1546345","requestID":28}
+{"level":"error","time":"2024-07-10T23:02:55.070+0530","caller":"custom/setup.go:509","msg":"Error Response dial tcp: lookup grvfosswzi: no such host for http request from host grvfosswzi","tunnelID":"1546345","requestID":29}
+{"level":"debug","time":"2024-07-10T23:03:16.848+0530","caller":"custom/setup.go:870","msg":"Exiting the sink proxy","tunnelID":"1546345"}
+{"level":"debug","time":"2024-07-10T23:03:16.848+0530","caller":"callback/setup.go:118","msg":"Shutting down the callback agent"}
+{"level":"debug","time":"2024-07-10T23:03:16.848+0530","caller":"apiserver/setup.go:144","msg":"Shutting down the server"}
+{"level":"debug","time":"2024-07-10T23:03:16.848+0530","caller":"core/lifecycle.go:438","msg":"Context cancelled"}
+{"level":"info","time":"2024-07-10T23:03:16.849+0530","caller":"core/lifecycle.go:440","msg":"Stopping tunnel"}
+{"level":"debug","time":"2024-07-10T23:03:16.849+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"debug","time":"2024-07-10T23:03:16.849+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"debug","time":"2024-07-10T23:03:19.742+0530","caller":"ssh/ssh.go:222","msg":"Remote connection on remote port: 20343 closed, reason: EOF"}
+{"level":"debug","time":"2024-07-10T23:03:19.742+0530","caller":"ssh/ssh.go:244","msg":"closed ssh connection with port 20343"}
+{"level":"debug","time":"2024-07-10T23:03:19.742+0530","caller":"ssh/ssh.go:222","msg":"Remote connection on remote port: 8582 closed, reason: EOF"}
+{"level":"debug","time":"2024-07-10T23:03:19.742+0530","caller":"ssh/ssh.go:244","msg":"closed ssh connection with port 8582"}
+{"level":"debug","time":"2024-07-10T23:03:19.748+0530","caller":"ssh/ssh.go:222","msg":"Remote connection on remote port: 18093 closed, reason: EOF"}
+{"level":"debug","time":"2024-07-10T23:03:19.748+0530","caller":"ssh/ssh.go:222","msg":"Remote connection on remote port: 24371 closed, reason: EOF"}
+{"level":"debug","time":"2024-07-10T23:03:19.748+0530","caller":"ssh/ssh.go:244","msg":"closed ssh connection with port 24371"}
+{"level":"debug","time":"2024-07-10T23:03:19.748+0530","caller":"ssh/ssh.go:244","msg":"closed ssh connection with port 18093"}
+{"level":"debug","time":"2024-07-10T23:03:19.749+0530","caller":"ssh/ssh.go:222","msg":"Remote connection on remote port: 17094 closed, reason: EOF"}
+{"level":"debug","time":"2024-07-10T23:03:19.749+0530","caller":"ssh/ssh.go:244","msg":"closed ssh connection with port 17094"}
+{"level":"info","time":"2024-07-10T23:03:20.092+0530","caller":"core/lifecycle.go:447","msg":"Tunnel stopped successfully"}
+{"level":"debug","time":"2024-07-10T23:03:20.093+0530","caller":"core/lifecycle.go:449","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-07-10T23:03:20.093+0530","caller":"core/lifecycle.go:450","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2024-07-10T23:03:20.093+0530","caller":"core/lifecycle.go:452","msg":"All goroutines exited"}
+{"level":"debug","time":"2024-07-10T23:03:20.093+0530","caller":"cmd/lt.go:263","msg":"main: all goroutines have finished."}

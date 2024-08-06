@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Mobile" duration-ms="53483" started-at="2024-06-11T13:45:51Z" finished-at="2024-06-11T13:46:45Z">
+    <groups>
+    </groups>
+    <test name="AndroidAppTest 2" duration-ms="53483" started-at="2024-06-11T13:45:51Z" finished-at="2024-06-11T13:46:45Z">
+      <class name="com.lambdaTestApp.android.AndroidApp">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.lambdaTestApp.android.AndroidApp@799d4f69]" name="beforeSuite" is-config="true" duration-ms="62638" started-at="2024-06-11T13:44:49Z" finished-at="2024-06-11T13:45:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="AndroidApp1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lambdaTestApp.android.AndroidApp@799d4f69]" name="AndroidApp1" duration-ms="53435" started-at="2024-06-11T13:45:51Z" description="#TAS#AndroidApp1 (java.lang.String arg0, java.lang.String arg1, java.lang.String arg2)" finished-at="2024-06-11T13:46:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Galaxy S22 5G]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AndroidApp1 -->
+      </class> <!-- com.lambdaTestApp.android.AndroidApp -->
+    </test> <!-- AndroidAppTest 2 -->
+  </suite> <!-- Mobile -->
+</testng-results>
