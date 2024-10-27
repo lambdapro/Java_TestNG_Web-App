@@ -63,7 +63,7 @@ public class IOSApp {
             ltOptions.put("app", "lt://APP1016016161718041499591119");
             capabilities.setCapability("lt:options", ltOptions);
 
-            String hub = "https://mudassars:LoyMEMP9NWiHaeCpfBaGfu7c3hrjYfiksHEe6lSb3zJtqSGp3Z@mobile-hub.lambdatest.com/wd/hub";
+            String hub = "https://" + userName + ":" + accessKey + gridURL;
             driver = new AppiumDriver<>(new URL(hub), capabilities);
 
             WebDriverWait Wait = new WebDriverWait(driver,30);
